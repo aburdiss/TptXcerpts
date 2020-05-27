@@ -10,7 +10,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        TabView {
+            CompositionListView()
+                .tabItem {
+                    Image(systemName: "book")
+                    Text("Excerpts")
+            }
+            ComposerListView()
+                .tabItem {
+                    Image(systemName: "person.3")
+                    Text("Composers")
+            }
+            SettingsView()
+                .tabItem {
+                    Image(systemName: "gear")
+                    Text("More")
+            }
+        }
+        .environmentObject(settingsModel())
+        .environmentObject(Favorites())
+        .accentColor(Color.green)
     }
 }
 

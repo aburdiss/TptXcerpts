@@ -9,8 +9,21 @@
 import SwiftUI
 
 struct ComposerListView: View {
+    
+    var model = TrumpetContentModel().composers
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List {
+                ForEach(model) { item in
+                    NavigationLink(destination: ComposerDetailView(composer: item)) {
+                        Text(item.name)
+                    }
+                }
+            }
+        .navigationBarTitle("Composers")
+        }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

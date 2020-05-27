@@ -113,6 +113,8 @@
 		9C9C13E8247C7DB9009D7F85 /* TptXcerpts */ = {
 			isa = PBXGroup;
 			children = (
+				9CBF89A0247C91160010A335 /* TrumpetContentModel.swift */,
+				9CBF899E247C91080010A335 /* SettingsView.swift */,
 				9C9C13ED247C7DB9009D7F85 /* ContentView.swift */,
 				9CBF8992247C90610010A335 /* Composition Views */,
 				9CBF8993247C906C0010A335 /* Composer Views */,
@@ -122,8 +124,6 @@
 				9C9C13E9247C7DB9009D7F85 /* AppDelegate.swift */,
 				9C9C13EB247C7DB9009D7F85 /* SceneDelegate.swift */,
 				9C9C13F1247C7DBB009D7F85 /* Preview Content */,
-				9CBF899E247C91080010A335 /* SettingsView.swift */,
-				9CBF89A0247C91160010A335 /* TrumpetContentModel.swift */,
 			);
 			path = TptXcerpts;
 			sourceTree = "<group>";
