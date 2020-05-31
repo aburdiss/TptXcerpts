@@ -83,10 +83,66 @@ let bachMassB = Composition(id: 4, composer: "Johann Sebastian Bach", composerLa
     ["", ""]
 ])
 
+let beethovenLeonore2 = Composition(id: 5, composer: "Ludwig Van Beethoven", composerLast: "Beethoven", name: "Leonora Overture No.2", date: "1805", era: "Early Romantic", genre: "Overture", excerpts: [
+    Excerpt(id: 8, description: "Excerpt 1", measures: "mm. 392 - 411", pictures: [["E♭ Trumpet", "1014"]])
+], mutes: "", videos: [
+    ["", ""]
+])
 
 
-let pictures = [["D Trumpet 1", ""], ["D Trumpet 2", ""], ["D Trumpet 3", ""]]
+let beethovenLeonore3 = Composition(id: 6, composer: "Ludwig Van Beethoven", composerLast: "Beethoven", name: "Leonora Overture No.3", date: "1806", era: "Early Romantic", genre: "Overture", excerpts: [
+    Excerpt(id: 9, description: "Excerpt 1", measures: "20 mm. after [D] - [E]", pictures: [["B♭ Trumpet", "1015"]])
+], mutes: "", videos: [
+    ["", ""]
+])
 
+let beethoven5 = Composition(id: 7, composer: "Ludwig Van Beethoven", composerLast: "Beethoven", name: "Symphony No. 5", date: "1808", era: "Early Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 10, description: "Excerpt 1", measures: "Mov. II, [A] - 9 mm. after [A]", pictures: [["C Trumpet 1", "1016"], ["C Trumpet 2", "1017"]]),
+    Excerpt(id: 11, description: "Excerpt 2", measures: "Mov. IV, mm. 374 - 4 mm. before [A]", pictures: [["C Trumpet 1", "1018"], ["C Trumpet 2", "1019"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let beethoven9 = Composition(id: 8, composer: "Ludwig Van Beethoven", composerLast: "Beethoven", name: "Symphony No. 9", date: "1824", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 12, description: "Excerpt 1", measures: "Mov. IV, [B] - 15 mm. after [C] ", pictures: [["D Trumpet 1", "1020"], ["D Trumpet 2", "1021"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let beethovenViolin = Composition(id: 9, composer: "Ludwig Van Beethoven", composerLast: "Beethoven", name: "Violin Concerto in D Major", date: "1806", era: "Early Romantic", genre: "Violin Concerto", excerpts: [
+    Excerpt(id: 13, description: "Excerpt 1", measures: "Mov. I, mm. 346 - 357", pictures: [["D Trumpet 1", "1022"], ["D Trumpet 2", "1023"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let berliozRomanCarnival = Composition(id: 10, composer: "Hector Berlioz", composerLast: "Berlioz", name: "Roman Carnival Overture", date: "1844", era: "Romantic", genre: "Overture", excerpts: [
+    Excerpt(id: 14, description: "Excerpt 1", measures: "[3] - 5 mm. before [4] ", pictures: [["D Trumpet 1", "1024"], ["D Trumpet 2", "1025"], ["A Cornet 1", "1026"], ["A Cornet 2", "1027"]]),
+    Excerpt(id: 15, description: "Excerpt 2", measures: "12 mm. before [8] - [8] ", pictures: [["D Trumpet 1", "1028"], ["D Trumpet 2", "1029"], ["A Cornet 1", "1030"], ["A Cornet 2", "1031"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let berliozSymphonie = Composition(id: 11, composer: "Hector Berlioz", composerLast: "Berlioz", name: "Symphonie fantastique", date: "1830", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 16, description: "Excerpt 1", measures: "Mov. II, [21] - [22]", pictures: [["B♭ Cornet obbligato", "1032"]]),
+    Excerpt(id: 17, description: "Excerpt 2", measures: "Mov. II, 12 mm. after [25] - [26]", pictures: [["B♭ Cornet obbligato", "1033"]]),
+    Excerpt(id: 18, description: "Excerpt 3", measures: "Mov. II, 3 mm. before [28] - 3 mm. after [29]", pictures: [["B♭ Cornet obbligato", "1034"]]),
+    Excerpt(id: 19, description: "Excerpt 4", measures: "Mov. II, 7 mm. before [31] - 8 mm. before [33]", pictures: [["B♭ Cornet obbligato", "1035"]]),
+    Excerpt(id: 20, description: "Excerpt 5", measures: "Mov. II, 8 mm. after [33] - [35]", pictures: [["B♭ Cornet obbligato", "1036"]]),
+    Excerpt(id: 21, description: "Excerpt 6", measures: "Mov. II, 14 mm. before [36] - End", pictures: [["B♭ Cornet obbligato", "1037"]]),
+    Excerpt(id: 22, description: "Excerpt 7", measures: "Mov. IV, [53] - 7 mm. before [54] ", pictures: [["B♭ Trumpet 1", "1038"], ["B♭ Trumpet 2", "1039"], ["B♭ Cornet 1", "1040"], ["B♭ Cornet 2", "1041"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let bizetCarmen = Composition(id: 12, composer: "Georges Bizet", composerLast: "Bizet", name: "Carmen Suite No. 1", date: "1874", era: "Romantic", genre: "Orchestral Suite", excerpts: [
+    Excerpt(id: 23, description: "Excerpt 1", measures: "No. 1", pictures: [["A Trumpet 1", "1042"], ["A Trumpet 2", "1043"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+
+let pictures = [["A Trumpet 1", ""], ["A Trumpet 2", ""]]
+let flat = "♭"
 
 /*
 X Bach – Brandenburg Concerto No. 2
@@ -94,13 +150,13 @@ X Bach – Cantata BWV 51
 X Bach – Christmas Oratorio
 X Bach – Magnificat in D Major
 X Bach – Mass in B Minor
- Beethoven – Leonore Overture No. 2
- Beethoven – Leonore Overture No. 3
- Beethoven – Symphony No. 5
- Beethoven – Symphony No. 9
- Beethoven – Violin Concerto in D Major
- Berlioz – Roman Carnival Overture
- Berlioz – Symphonie fantastique
+X Beethoven – Leonore Overture No. 2
+X Beethoven – Leonore Overture No. 3
+X Beethoven – Symphony No. 5
+X Beethoven – Symphony No. 9
+X Beethoven – Violin Concerto in D Major
+X Berlioz – Roman Carnival Overture
+X Berlioz – Symphonie fantastique
  Bizet – Carmen
  Brahms – Academic Festival Overture
  Brahms – Symphony No. 1
@@ -166,9 +222,11 @@ let bach = Composer(id: 0, name: "Johann Sebastian Bach", ipa: "joˈhan zeˈbast
 ])
 
 let beethoven = Composer(id: 1, name: "Ludwig Van Beethoven", ipa: "ˈlʊdvɪɡ væn ˈbeɪt(h)oʊvən", image: 2001, country: "Germany", dates: "1770-1827", bio: "Ludwig van Beethoven was a German composer and pianist. Beethoven began his compositional life firmly in the classical era, but was a key figure in the early romantic era. Beethoven grew to be mostly deaf in his lifetime, but never ceased composing. He was the first composer to incorporate trombones in a symphonic setting, and composed nine symphonies in his lifetime. He is considered to be one of the greatest composers of all time.", excerpts: [
+    beethovenLeonore2, beethovenLeonore3, beethoven5, beethoven9, beethovenViolin
 ])
 
 let berlioz = Composer(id: 2, name: "Hector Berlioz", ipa: "ɛkˈtɔr bɛr liˌoʊz", image: 2002, country: "France", dates: "1803-1869", bio: "Hector Berlioz was a French Romantic composer, who gained his popularity through his unwillingness to accept traditional rules and formulas. He frequently employed extended techniques in many instruments, and developed his own forms and techniques for composition. He was internationally acclaimed as a conductor, and was also a prominant musical journalist.", excerpts: [
+    berliozRomanCarnival, berliozSymphonie
 ])
 
 let bizet = Composer(id: 3, name: "Georges Bizet", ipa: "zhawrzh biˈzeɪ", image: 2003, country: "France", dates: "1838-1875", bio: "Georges Bizet was a prominant French composer of the Romantic Era. Best known for his operas and incidental music, Bizet had little success until his final work \"Carmen\".", excerpts: [
@@ -238,7 +296,7 @@ class TrumpetContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        bachBrandenburg2, bachCantata, bachChristmasOratorio, bachMagnificant, bachMassB
+        bachBrandenburg2, bachCantata, bachChristmasOratorio, bachMagnificant, bachMassB, beethovenLeonore2, beethovenLeonore3, beethoven5, beethoven9, beethovenViolin, berliozRomanCarnival, berliozSymphonie
     ]
     
     /**
