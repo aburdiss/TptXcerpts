@@ -140,8 +140,158 @@ let bizetCarmen = Composition(id: 12, composer: "Georges Bizet", composerLast: "
     ["", ""]
 ])
 
+let brahmsAcademic = Composition(id: 13, composer: "Johannes Brahms", composerLast: "Brahms", name: "Academic Festival Overture", date: "1880", era: "Romantic", genre: "Overture", excerpts: [
+    Excerpt(id: 24, description: "Excerpt 1", measures: "Mov. I, 15 mm. after [C] - 12 mm. after [D]", pictures: [["C Trumpet 1", "1044"], ["C Trumpet 2", "1045"], ["C Trumpet 3", "1046"]])
+], mutes: "", videos: [
+    ["", ""]
+])
 
-let pictures = [["A Trumpet 1", ""], ["A Trumpet 2", ""]]
+let brahms1 = Composition(id: 14, composer: "Johannes Brahms", composerLast: "Brahms", name: "Symphony No. 1", date: "1876", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 25, description: "Excerpt 1", measures: "Mov. II, mm. 122 - End", pictures: [["E Trumpet 1", "1047"], ["E Trumpet 2", "1048"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let brahms2 = Composition(id: 15, composer: "Johannes Brahms", composerLast: "Brahms", name: "Symphony No. 2", date: "1877", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 26, description: "Excerpt 1", measures: "Mov. 1,  mm. 281 - 298", pictures: [["D Trumpet 1", "1049"], ["D Trumpet 2", "1050"]]),
+    Excerpt(id: 27, description: "Excerpt 2", measures: "Mov. 1, mm. 513 - End", pictures: [["D Trumpet 1", "1051"], ["D Trumpet 2", "1052"]]),
+    Excerpt(id: 28, description: "Excerpt 3", measures: "Mov. 4, mm. 397 - End", pictures: [["D Trumpet 1", "1053"], ["D Trumpet 2", "1054"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let bruckner4 = Composition(id: 16, composer: "Anton Bruckner", composerLast: "Bruckner", name: "Symphony No. 4", date: "1874", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 29, description: "Excerpt 1", measures: "", pictures: [["F Trumpet 1", "1055"], ["F Trumpet 2", "1056"], ["F Trumpet 3", "1057"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let bruckner7 = Composition(id: 17, composer: "Anton Bruckner", composerLast: "Bruckner", name: "Symphony No. 7", date: "1883", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 30, description: "Excerpt 1", measures: "Mov. I, mm. 91 - 98", pictures: [["F Trumpet 1", "1058"]]),
+    Excerpt(id: 31, description: "Excerpt 2", measures: "Mov. I, mm. 139 - 148", pictures: [["F Trumpet 1", "1059"], ["F Trumpet 2", "1060"], ["F Trumpet 3", "1061"]]),
+    Excerpt(id: 32, description: "Excerpt 3", measures: "Mov. I, [M] - 2 mm. before [N]", pictures: [["F Trumpet 1", "1062"], ["F Trumpet 2", "1063"], ["F Trumpet 3", "1064"]]),
+    Excerpt(id: 33, description: "Excerpt 4", measures: "Mov. I, 4 mm. after [X] - End", pictures: [["F Trumpet 1", "1065"], ["F Trumpet 2", "1066"], ["F Trumpet 3", "1067"]]),
+    Excerpt(id: 34, description: "Excerpt 5", measures: "Mov. II, mm. 172 - 182", pictures: [["F Trumpet 1", "1068"], ["F Trumpet 2", "1069"], ["F Trumpet 3", "1070"]]),
+    Excerpt(id: 35, description: "Excerpt 6", measures: "Mov. III, mm. 169 - 196", pictures: [["F Trumpet 1", "1071"], ["F Trumpet 2", "1072"]]),
+    Excerpt(id: 36, description: "Excerpt 7", measures: "Mov. IV, [P] - [S] ", pictures: [["F Trumpet 1", "1073"], ["F Trumpet 2", "1074"], ["F Trumpet 3", "1075"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let bruckner8 = Composition(id: 18, composer: "Anton Bruckner", composerLast: "Bruckner", name: "Symphony No. 8", date: "1887", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 37, description: "Excerpt 1", measures: "Mov. IV, mm. 11 - [B] ", pictures: [["F Trumpet 1", "1076"], ["C Trumpet 2", "1077"], ["C Trumpet 3", "1078"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let debussyNocturnes = Composition(id: 19, composer: "Claude Debussy", composerLast: "Debussy", name: "Nocturnes", date: "1899", era: "Romantic", genre: "Nocturne", excerpts: [
+    Excerpt(id: 38, description: "Excerpt 1", measures: "Fêtes, 8 mm. after [10] - [11] ", pictures: [["F Trumpet 1 and 2", "1079"], ["F Trumpet 3", "1080"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let debussyLaMer = Composition(id: 20, composer: "Claude Debussy", composerLast: "Debussy", name: "La Mer", date: "1905", era: "Romantic", genre: "Orchestral Piece", excerpts: [
+    Excerpt(id: 39, description: "Excerpt 1", measures: "Mov. I, 3 mm. before [1] - 6 mm. before [2]", pictures: [["F Trumpet 1", "1081"]]),
+    Excerpt(id: 40, description: "Excerpt 2", measures: "Mov. 3, 5 mm. after [52] - 7 mm. after [52])", pictures: [["C Cornet 1", "1082"]]),
+    Excerpt(id: 41, description: "Excerpt 3", measures: "Mov. 3, 8 mm. after [57] - [58]", pictures: [["F Trumpet 1 and 2", "1083"], ["F Trumpet 3", "1084"], ["C Cornet 1 and 2", "1085"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let donizettiDonPasquale = Composition(id: 21, composer: "Gaetano Donizetti", composerLast: "Donizetti", name: "Don Pasquale", date: "1843", era: "Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 42, description: "Excerpt 1", measures: "Prelude to Act II, mm. 5 - 3 mm. after [1]", pictures: [["B♭ Trumpet 1 and 2", "1086"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let dvorak8 = Composition(id: 22, composer: "Antonín Dvořák", composerLast: "Dvořák", name: "Symphony No. 8", date: "1889", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 43, description: "Excerpt 1", measures: "Mov. I, 17 mm. after [K] - 2 mm. after [L] ", pictures: [["C Trumpet 1", "1087"], ["C Trumpet 2", "1088"]]),
+    Excerpt(id: 44, description: "Excerpt 2", measures: "Mov. II, 7 mm. before [E] - [F] ", pictures: [["C Trumpet 1", "1089"], ["C Trumpet 2", "1090"]]),
+    Excerpt(id: 45, description: "Excerpt 3", measures: "Mov. IV, mm. 1 - 18", pictures: [["D Trumpet 1", "1091"], ["D Trumpet 2", "1092"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let dvorak9 = Composition(id: 23, composer: "Antonín Dvořák", composerLast: "Dvořák", name: "Symphony No. 9", date: "1893", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 46, description: "Excerpt 1", measures: "Movement II, 5 mm. after [4] - [5] ", pictures: [["C Trumpet 1", "1093"], ["C Trumpet 2", "1094"]]),
+    Excerpt(id: 47, description: "Excerpt 2", measures: "Mov. IV, mm. 8 - 25", pictures: [["E Trumpet 1", "1095"], ["E Trumpet 2", "1096"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let handelMessiah = Composition(id: 24, composer: "George Frideric Handel", composerLast: "Handel", name: "Messiah", date: "1741", era: "Baroque", genre: "Oratorio", excerpts: [
+    Excerpt(id: 48, description: "Excerpt 1", measures: "No. 46, Air", pictures: [["C Trumpet 1", "1097"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let haydn100 = Composition(id: 25, composer: "Franz Joseph Haydn", composerLast: "Haydn", name: "Symphony No. 100", date: "1794", era: "Classical", genre: "Symphony", excerpts: [
+    Excerpt(id: 49, description: "Excerpt 1", measures: "Mov. II, mm. 152 - 159", pictures: [["C Trumpet 2", "1098"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let mahlerDasLied = Composition(id: 26, composer: "Gustav Mahler", composerLast: "Mahler", name: "Das Lied von der Erde", date: "1909", era: "Romantic", genre: "Symphonic Piece", excerpts: [
+    Excerpt(id: 50, description: "Excerpt 1", measures: "Mov. I, 5 mm. before [29] - 3 mm. before [30]", pictures: [["F Trumpet 1", "1099"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let mahler1 = Composition(id: 27, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 1", date: "1888", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 51, description: "Excerpt 1", measures: "Mov. I, 4 mm. after [1] - 8 mm. before [2]", pictures: [["F Trumpet 1", "1100"], ["F Trumpet 2", "1101"], ["B♭ Trumpet 3", "1102"]]),
+    Excerpt(id: 52, description: "Excerpt 2", measures: "Mov. I, [2] - 2 mm. after [3] ", pictures: [["F Trumpet 1", "1103"], ["F Trumpet 2", "1104"]]),
+    Excerpt(id: 53, description: "Excerpt 3", measures: "Mov. III, [5] - 4 mm. after [7]", pictures: [["F Trumpet 1", "1105"], ["F Trumpet 2", "1106"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let mahler2 = Composition(id: 28, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 2", date: "1894", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 54, description: "Excerpt 1", measures: "Mov. I, [17] - 8 mm. after [19]", pictures: [["F Trumpet 1", "1107"], ["F Trumpet 2", "1108"], ["F Trumpet 3", "1109"], ["F Trumpet 4", "1110"]]),
+    Excerpt(id: 55, description: "Excerpt 2", measures: "Mov. V, [22] to [25]", pictures: [["Offstage F Trumpet 1", "1111"], ["Offstage C Trumpet 2", "1112"]]),
+    Excerpt(id: 56, description: "Excerpt 3", measures: "Mov. V, [30] - [31] ", pictures: [["Offstage F Trumpet 1", "1113"], ["Offstage F Trumpet 2", "1114"], ["Offstage F Trumpet 3", "1115"], ["Offstage F Trumpet 4", "1116"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let mahler3 = Composition(id: 29, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 3", date: "1896", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 57, description: "Excerpt 1", measures: "Mov. III, 1 mm. before [14] - [16] ", pictures: [["B♭ Flügelhorn", "1117"]]),
+    Excerpt(id: 58, description: "Excerpt 2", measures: "Mov. VI, [26] - [31] ", pictures: [["F Trumpet 1", "1118"], ["F Trumpet 2", "1119"], ["B♭ Trumpet 3", "1120"], ["B♭ Trumpet 4", "1121"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let mahler4 = Composition(id: 30, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 4", date: "1901", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 59, description: "Excerpt 1", measures: "Mov. I, 3 mm. after [16] - 3 mm. before [18]", pictures: [["F Trumpet 1", "1122"], ["F Trumpet 2", "1123"], ["F Trumpet 3", "1124"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let mahler5 = Composition(id: 31, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 5", date: "1902", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 60, description: "Excerpt 1", measures: "Mov. I, Beginning - 6 mm. after [1] ", pictures: [["B♭ Trumpet 1", "1125"], ["B♭ Trumpet 2", "1126"], ["B♭ Trumpet 3", "1127"], ["B♭ Trumpet 4", "1128"]]),
+    Excerpt(id: 61, description: "Excerpt 2", measures: "Mov. I, [3] - 4 mm. before [4] ", pictures: [["B♭ Trumpet 1", "1129"], ["B♭ Trumpet 2", "1130"], ["B♭ Trumpet 3", "1131"], ["B♭ Trumpet 4", "1132"]]),
+    Excerpt(id: 62, description: "Excerpt 3", measures: "Mov. I, [10] - 7 mm. before [12]", pictures: [["B♭ Trumpet 1", "1133"], ["B♭ Trumpet 2", "1134"], ["B♭ Trumpet 3", "1135"], ["B♭ Trumpet 4", "1136"]]),
+    Excerpt(id: 63, description: "Excerpt 4", measures: "Mov. I, 1 mm. before [13] - 1 mm. before [14] ", pictures: [["F Trumpet 1", "1137"]]),
+    Excerpt(id: 64, description: "Excerpt 5", measures: "Mov. III, [13] - 8 mm. after [13] ", pictures: [["B♭ Trumpet 1", "1138"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let mahler6 = Composition(id: 32, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 6", date: "1904", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 65, description: "Excerpt 1", measures: "Movement I: 6 measures after [2] to 2 measures before [3]", pictures: [["B♭ Trumpet 1", "1139"]]),
+    Excerpt(id: 66, description: "Excerpt 2", measures: "Mov. IV, 6 mm. after [105] - [106]", pictures: [["F Trumpet 1", "1140"], ["F Trumpet 2", "1141"], ["B♭ Trumpet 3", "1142"], ["B♭ Trumpet 4", "1143"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let mahler7 = Composition(id: 33, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 7", date: "1906", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 67, description: "Excerpt 1", measures: "Mov. V, 4 mm. before [224] - 3 mm. after [229] ", pictures: [["B♭ Trumpet 1", "1144"], ["B♭ Trumpet 2", "1145"], ["B♭ Trumpet 3", "1146"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+
+
+let pictures = [["B♭ Trumpet 1", ""], ["B♭ Trumpet 2", ""], ["B♭ Trumpet 3", ""], ["B♭ Trumpet 4", ""]]
 let flat = "♭"
 
 /*
@@ -157,28 +307,28 @@ X Beethoven – Symphony No. 9
 X Beethoven – Violin Concerto in D Major
 X Berlioz – Roman Carnival Overture
 X Berlioz – Symphonie fantastique
- Bizet – Carmen
- Brahms – Academic Festival Overture
- Brahms – Symphony No. 1
- Brahms – Symphony No. 2
- Bruckner – Symphony No. 4
- Bruckner – Symphony No. 7
- Bruckner – Symphony No. 8
- Debussy – Fêtes from Nocturnes
- Debussy – La Mer
- Donizetti – Don Pasquale
- Dvořák – Symphony No. 8
- Dvořák – Symphony No. 9
- Handel – Messiah
- Haydn – Symphony No. 100
- Mahler – Das Lied von der Erde
- Mahler – Symphony No. 1
- Mahler – Symphony No. 2
- Mahler – Symphony No. 3
- Mahler – Symphony No. 4
- Mahler – Symphony No. 5
- Mahler – Symphony No. 6
- Mahler – Symphony No. 7
+X Bizet – Carmen
+X Brahms – Academic Festival Overture
+X Brahms – Symphony No. 1
+X Brahms – Symphony No. 2
+X Bruckner – Symphony No. 4
+X Bruckner – Symphony No. 7
+X Bruckner – Symphony No. 8
+X Debussy – Fêtes from Nocturnes
+X Debussy – La Mer
+X Donizetti – Don Pasquale
+X Dvořák – Symphony No. 8
+X Dvořák – Symphony No. 9
+X Handel – Messiah
+X Haydn – Symphony No. 100
+X Mahler – Das Lied von der Erde
+X Mahler – Symphony No. 1
+X Mahler – Symphony No. 2
+X Mahler – Symphony No. 3
+X Mahler – Symphony No. 4
+X Mahler – Symphony No. 5
+X Mahler – Symphony No. 6  // Middle
+X Mahler – Symphony No. 7
  Mahler – Symphony No. 9
  Mozart – Serenade No. 9
 ? Ravel – Boléro
@@ -230,30 +380,39 @@ let berlioz = Composer(id: 2, name: "Hector Berlioz", ipa: "ɛkˈtɔr bɛr liˌo
 ])
 
 let bizet = Composer(id: 3, name: "Georges Bizet", ipa: "zhawrzh biˈzeɪ", image: 2003, country: "France", dates: "1838-1875", bio: "Georges Bizet was a prominant French composer of the Romantic Era. Best known for his operas and incidental music, Bizet had little success until his final work \"Carmen\".", excerpts: [
+    bizetCarmen
 ])
 
 let brahms = Composer(id: 4, name: "Johannes Brahms", ipa: "joˈhanəs ˈbʁaːms", image: 2004, country: "Germany", dates: "1833-1897", bio: "Johannes Brahms was one of the most famous composers of all time. He is most famous for his four symphonies, but he wrote for many diverse ensembles. Brahms was a perfectionist in all that he did, and was known to occaisionally destroy some of his work to prevent it from being seen by the outside world.", excerpts: [
+    brahmsAcademic, brahms1, brahms2
 ])
 
 let bruckner = Composer(id: 5, name: "Anton Bruckner", ipa: " 'antɔn ˈbʁʊknɐ", image: 2005, country: "Austria", dates: "1824-1896", bio: "Anton Bruckner was an Austrian organist, music theorist, and composer of the romantic era. He is best known for his symphonies and religious music. Bruckner was unlike other composers of his time, in that he was very a very humble man.", excerpts: [
+    bruckner4, bruckner7, bruckner8
 ])
 
 let debussy = Composer(id: 6, name: "", ipa: "", image: 2006, country: "France", dates: "", bio: "", excerpts: [
+    debussyLaMer, debussyNocturnes
 ])
 
 let donizetti = Composer(id: 7, name: "Gaetano Donizetti", ipa: "ɡaeˈtaːno donidˈdzetti", image: 2007, country: "Italy", dates: "1797-1848", bio: "Donizetti was one of the leading composers of the Bel Canto opera style, along with Rossini and Bellini. Donizetti did not come from a musical background, but was taken up by the composer Simon Mayr at a young age and enrolled in a music school. Throughout the course of his life he composed almost 70 operas. He moved to Paris towards the end of his career to escape the censorship that he was always subject to in Naples.", excerpts: [
+    donizettiDonPasquale
 ])
 
 let dvorak = Composer(id: 8, name: "Antonín Dvořák", ipa: "ˈɑn tɔ nyin ˈdvɔr ʒɑk", image: 2008, country: "Austrian Empire", dates: "1841-1904", bio: "Dvořák was one of the first Czech composers to recieve worldwide recognition. Dvořák was an admirer of Richard Wagner, and took influence from him especially in his Operas. He frequently included folk music in his compositions, and his music often had nationalistic themes.", excerpts: [
+    dvorak8, dvorak9
 ])
 
 let handel = Composer(id: 9, name: "", ipa: "", image: 2009, country: "England", dates: "", bio: "", excerpts: [
+    handelMessiah
 ])
 
 let haydn = Composer(id: 10, name: "Franz Joseph Haydn", ipa: "ˈfʁants ˈjoːzɛf ˈhaɪdn̩", image: 2010, country: "Austria", dates: "1732-1809", bio: "Haydn was a classical composer who is commonly known as \"The father of the Symphony\". He spent most of his life as a court musician for the Esterházy family. He was isolated in this role, with little to no contact with the rest of the music community, and was forced to create his own style because of this. Haydn was a prolific composer, producing 104 numbered symphonies and an immense amount of chamber music.", excerpts: [
+    haydn100
 ])
 
 let mahler = Composer(id: 11, name: "Gustav Mahler", ipa: "ˈgʊs tɑf ˈmɑ lər", image: 2011, country: "Austrian Empire", dates: "1860-1911", bio: "Mahler is one of the most popular composers of all time. In 2016, a BBC Music survey ranked three of his symphonies among the top ten symphonies of all time. His music continues to be among the top recorded and perfomed in all of classical music. During his day, he was also among one of the top conductors of his era, and was the first conductor of the New York Philharmonic Orchestra.", excerpts: [
+    mahlerDasLied, mahler1, mahler2, mahler3, mahler4, mahler5, mahler6, mahler7
 ])
 
 let mozart = Composer(id: 12, name: "Wolfgang Amadeus Mozart", ipa: "ˈwʊlf gæŋ ˌæm əˈdeɪ əs ˈmoʊt sɑrt", image: 2012, country: "Germany", dates: "1756-1791", bio: "Mozart gained popularity as a pianist and composer at an early age. He gained employment as a court musician at the Salzburg court, but quickly lost interest and began traveling looking for other employment. In Vienna, he found great fame, but worked his whole life trying to achieve financial stability: a goal he was never able to achieve. Mozart's death is also very mysterious and controvercial.", excerpts: [
@@ -296,7 +455,7 @@ class TrumpetContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        bachBrandenburg2, bachCantata, bachChristmasOratorio, bachMagnificant, bachMassB, beethovenLeonore2, beethovenLeonore3, beethoven5, beethoven9, beethovenViolin, berliozRomanCarnival, berliozSymphonie
+        bachBrandenburg2, bachCantata, bachChristmasOratorio, bachMagnificant, bachMassB, beethovenLeonore2, beethovenLeonore3, beethoven5, beethoven9, beethovenViolin, berliozRomanCarnival, berliozSymphonie, bizetCarmen, brahmsAcademic, brahms1, brahms2, bruckner4, bruckner7, bruckner8, debussyLaMer, debussyNocturnes, donizettiDonPasquale, dvorak8, dvorak9, handelMessiah, haydn100, mahlerDasLied, mahler1, mahler2, mahler3, mahler4, mahler5, mahler6, mahler7
     ]
     
     /**
