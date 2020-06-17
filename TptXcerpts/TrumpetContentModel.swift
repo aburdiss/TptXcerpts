@@ -6,6 +6,8 @@
 //  Copyright © 2020 Alex Burdiss. All rights reserved.
 //
 
+//TODO: Add more excerpts that aren't just on Lexcerpts
+
 import Foundation
 
 /**
@@ -289,9 +291,57 @@ let mahler7 = Composition(id: 33, composer: "Gustav Mahler", composerLast: "Mahl
     ["", ""]
 ])
 
+let mahler9 = Composition(id: 34, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 9", date: "1910", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 68, description: "Excerpt 1", measures: "Mov. III, 20 mm. after [36] - 8 mm. before [38]", pictures: [["F Trumpet 1", "1147"], ["F Trumpet 2", "1148"], ["F Trumpet 3", "1149"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let mozartSerenade9 = Composition(id: 35, composer: "Wolfgang Amadeus Mozart", composerLast: "Mozart", name: "Serenade in D major", date: "1779", era: "Classical", genre: "Serenade", excerpts: [
+    Excerpt(id: 69, description: "Excerpt 1", measures: "Mov. VI, Trio II - D", pictures: [["A Posthorn", "1150"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let rimskykorsakovCappricio = Composition(id: 36, composer: "Nikolay Rimsky-Korsakov", composerLast: "Rimsky-Korsakov", name: "Capriccio espagnol", date: "1887", era: "Romantic", genre: "Capriccio", excerpts: [
+    Excerpt(id: 70, description: "Excerpt 1", measures: "Mov. IV, Beginning - [L]", pictures: [["B♭ Trumpet 1", "1151"], ["B♭ Trumpet 2", "1152"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let rimskyKorsakovScheherazade = Composition(id: 37, composer: "Nikolay Rimsky-Korsakov", composerLast: "Rimsky-Korsakov", name: "Scheherazade", date: "1888", era: "Romantic", genre: "Suite", excerpts: [
+    Excerpt(id: 71, description: "Excerpt 1", measures: "Mov. II, 5 mm. after [D] - [E]", pictures: [["B♭ Trumpet 1", "1153"]]),
+    Excerpt(id: 72, description: "Excerpt 2", measures: "Mov. II, 17 mm. before [K] - [L] ", pictures: [["B♭ Trumpet 1", "1154"], ["B♭ Trumpet 2", "1155"]]),
+    Excerpt(id: 73, description: "Excerpt 3", measures: "Mov. III, [G] - [H] ", pictures: [["B♭ Trumpet 1", "1156"], ["B♭ Trumpet 2", "1157"]]),
+    Excerpt(id: 74, description: "Excerpt 4", measures: "Mov. IV, [C] - [E]", pictures: [["A Trumpet 1", "1158"], ["A Trumpet 2", "1159"]]),
+    Excerpt(id: 75, description: "Excerpt 5", measures: "Mov. IV, 9 mm. before [Q] - [R] ", pictures: [["A Trumpet 1", "1160"], ["B♭ Trumpet 2", "1161"]]),
+    Excerpt(id: 76, description: "Excerpt 6", measures: "Mov. IV, [T] - [U] ", pictures: [["A Trumpet 1", "1162"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let schumann2 = Composition(id: 38, composer: "Robert Schumann", composerLast: "Schumann", name: "Symphony No. 2", date: "1846", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 77, description: "Excerpt 1", measures: "Mov. I, Beginning to mm. 13", pictures: [["C Trumpet 1", "1163"], ["C Trumpet 2", "1164"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let scriabin4 = Composition(id: 39, composer: "Aleksandr Scriabin", composerLast: "Scriabin", name: "Symphony No. 4", date: "1908", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 78, description: "Excerpt 1", measures: "mm. 13 - 8 mm. before [1]", pictures: [["B♭ Trumpet 1", "1165"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let sibelius2 = Composition(id: 40, composer: "Jean Sibelius", composerLast: "Sibelius", name: "Symphony No. 2", date: "1902", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 79, description: "Excerpt 1", measures: "Mov. I, 3 mm. before [N] - 10 mm. before [O]", pictures: [["F Trumpet 1", "1166"], ["F Trumpet 2", "1167"], ["F Trumpet 3", "1168"]]),
+    Excerpt(id: 80, description: "Excerpt 2", measures: "Mov. IV, [Q] - 6 mm. before [S]", pictures: [["F Trumpet 1", "1169"], ["F Trumpet 2", "1170"], ["F Trumpet 3", "1171"]])
+], mutes: "", videos: [
+    ["", ""]
+])
 
 
-let pictures = [["B♭ Trumpet 1", ""], ["B♭ Trumpet 2", ""], ["B♭ Trumpet 3", ""], ["B♭ Trumpet 4", ""]]
+
+let pictures = [["F Trumpet 1", ""], ["F Trumpet 2", ""], ["F Trumpet 3", ""]]
 let flat = "♭"
 
 /*
@@ -329,14 +379,13 @@ X Mahler – Symphony No. 4
 X Mahler – Symphony No. 5
 X Mahler – Symphony No. 6  // Middle
 X Mahler – Symphony No. 7
- Mahler – Symphony No. 9
- Mozart – Serenade No. 9
-? Ravel – Boléro
- Rimsky-Korsakov – Capriccio Espagnol
- Rimsky-Korsakov – Scheherazade
- Schumann – Symphony No. 2
- Scriabin – Le Poème De L’Extase
- Sibelius – Symphony No. 2
+X Mahler – Symphony No. 9
+X Mozart – Serenade No. 9
+X Rimsky-Korsakov – Capriccio Espagnol
+X Rimsky-Korsakov – Scheherazade
+X Schumann – Symphony No. 2
+X Scriabin – Le Poème De L’Extase
+X Sibelius – Symphony No. 2
  Strauss – Also sprach Zarathustra
  Strauss – Death and Transfiguration
  Strauss – Don Juan
@@ -412,25 +461,27 @@ let haydn = Composer(id: 10, name: "Franz Joseph Haydn", ipa: "ˈfʁants ˈjoːz
 ])
 
 let mahler = Composer(id: 11, name: "Gustav Mahler", ipa: "ˈgʊs tɑf ˈmɑ lər", image: 2011, country: "Austrian Empire", dates: "1860-1911", bio: "Mahler is one of the most popular composers of all time. In 2016, a BBC Music survey ranked three of his symphonies among the top ten symphonies of all time. His music continues to be among the top recorded and perfomed in all of classical music. During his day, he was also among one of the top conductors of his era, and was the first conductor of the New York Philharmonic Orchestra.", excerpts: [
-    mahlerDasLied, mahler1, mahler2, mahler3, mahler4, mahler5, mahler6, mahler7
+    mahlerDasLied, mahler1, mahler2, mahler3, mahler4, mahler5, mahler6, mahler7, mahler9
 ])
 
 let mozart = Composer(id: 12, name: "Wolfgang Amadeus Mozart", ipa: "ˈwʊlf gæŋ ˌæm əˈdeɪ əs ˈmoʊt sɑrt", image: 2012, country: "Germany", dates: "1756-1791", bio: "Mozart gained popularity as a pianist and composer at an early age. He gained employment as a court musician at the Salzburg court, but quickly lost interest and began traveling looking for other employment. In Vienna, he found great fame, but worked his whole life trying to achieve financial stability: a goal he was never able to achieve. Mozart's death is also very mysterious and controvercial.", excerpts: [
-])
-
-let ravel = Composer(id: 13, name: "Maurice Ravel", ipa: "moʊˈris rəˈvɛl", image: 2013, country: "France", dates: "1875-1937", bio: "Ravel was an impressionist French composer. He was a careful, and slow composer, and composed much less compared to many other composers. He was also one of the first composers to realize the potential of recorded music, and was one of the first composers to record their music and marked it to a larger audience this way.", excerpts: [
+    mozartSerenade9
 ])
 
 let rimskyKorsakov = Composer(id: 14, name: "Nikolai Rimsky-Korsakov", ipa: "nʲɪkəˈlaj ˈrʲimskʲɪj ˈkorsəkəf", image: 2014, country: "Russia", dates: "1844-1908", bio: "Nikolai Rimsky-Korsakov was one of the most famous Russian composers. He was a master orchestrator, publishing a textbook on the subject using musical examples solely from his own compositions, and his most famous compositions are his orchestral works. Rimsky-Korsakov also spent a large portion of his musical life in association with the Russian military.", excerpts: [
+    rimskykorsakovCappricio, rimskyKorsakovScheherazade
 ])
 
 let schumann = Composer(id: 15, name: "Robert Schumann", ipa: "ˈrɒb ərt ˈʃu mɑn", image: 2015, country: "Germany", dates: "1810-1856", bio: "Schumann was one of the most popular composers of the romantic era. He gave up the study of law to become a concert pianist, but his dreams were crushed by a hand injury. He subsequently pursued a career in composition, and married his teacher's daughter, Clara Wieck. Schumann mainly composed for piano, but later in live began to compose lieder, orchestral works, and one opera.", excerpts: [
+    schumann2
 ])
 
 let scriabin = Composer(id: 16, name: "", ipa: "", image: 2016, country: "", dates: "", bio: "", excerpts: [
+    scriabin4
 ])
 
 let sibelius = Composer(id: 17, name: "Jean Sibelius", ipa: "ʒɑn  sɪˈbeɪ li əs", image: 2017, country: "Finland", dates: "1865-1957", bio: "Sibelius is the most well known composer to come out of Finland. His music is credited with helping Finland to develop a national identity, and his most famous work \"Finlandia\" is known as Finland's unofficial national anthem. Sibelius mysteriously stopped composing in the last thirty years of his life, retiring to a quite life in Järvenpää.", excerpts: [
+    sibelius2
 ])
 
 let rStrauss = Composer(id: 18, name: "Richard Strauss", ipa: "ˈʁɪçaʁt ˈʃtʁaʊs", image: 2018, country: "Germany", dates: "1864-1949", bio: "Richard Strauss was one of the leading composers of the Romantic Era. He, along with Gustav Mahler, were considered successors of Richard Wagner. Although Strauss composed music for almost every classical genre, he is most famous for his tone poems. Strauss' compositional output began when he was just six years old, and continued almost eighty years later until his death.", excerpts: [
@@ -455,14 +506,14 @@ class TrumpetContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        bachBrandenburg2, bachCantata, bachChristmasOratorio, bachMagnificant, bachMassB, beethovenLeonore2, beethovenLeonore3, beethoven5, beethoven9, beethovenViolin, berliozRomanCarnival, berliozSymphonie, bizetCarmen, brahmsAcademic, brahms1, brahms2, bruckner4, bruckner7, bruckner8, debussyLaMer, debussyNocturnes, donizettiDonPasquale, dvorak8, dvorak9, handelMessiah, haydn100, mahlerDasLied, mahler1, mahler2, mahler3, mahler4, mahler5, mahler6, mahler7
+        bachBrandenburg2, bachCantata, bachChristmasOratorio, bachMagnificant, bachMassB, beethovenLeonore2, beethovenLeonore3, beethoven5, beethoven9, beethovenViolin, berliozRomanCarnival, berliozSymphonie, bizetCarmen, brahmsAcademic, brahms1, brahms2, bruckner4, bruckner7, bruckner8, debussyLaMer, debussyNocturnes, donizettiDonPasquale, dvorak8, dvorak9, handelMessiah, haydn100, mahlerDasLied, mahler1, mahler2, mahler3, mahler4, mahler5, mahler6, mahler7, mahler9, mozartSerenade9, rimskykorsakovCappricio, rimskyKorsakovScheherazade, schumann2, scriabin4, sibelius2
     ]
     
     /**
      An alphabetical list of all of the composers in the app.
      */
     var composers: [Composer] = [
-        bach, beethoven, berlioz, bizet, brahms, bruckner, debussy, donizetti, dvorak, handel, haydn, mahler, mozart, ravel, rimskyKorsakov, schumann, scriabin, sibelius, rStrauss, stravinsky, tchaikovsky, wagner
+        bach, beethoven, berlioz, bizet, brahms, bruckner, debussy, donizetti, dvorak, handel, haydn, mahler, mozart, rimskyKorsakov, schumann, scriabin, sibelius, rStrauss, stravinsky, tchaikovsky, wagner
     ]
 }
 
