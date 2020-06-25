@@ -339,6 +339,91 @@ let sibelius2 = Composition(id: 40, composer: "Jean Sibelius", composerLast: "Si
     ["", ""]
 ])
 
+let straussAlsoSprach = Composition(id: 41, composer: "Richard Strauss", composerLast: "Strauss", name: "Also sprach Zarathustra", date: "1896", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 81, description: "Excerpt 1", measures: "mm. 5 - 3 mm. after [1] ", pictures: [["C Trumpet 1", "1172"], ["C Trumpet 2", "1173"], ["C Trumpet 3", "1174"], ["C Trumpet 4", "1175"]]),
+    Excerpt(id: 82, description: "Excerpt 2", measures: "10 mm. after [3] - 13 mm. after [3]", pictures: [["C Trumpet 1", "1176"], ["C Trumpet 2", "1177"]]),
+    Excerpt(id: 83, description: "Excerpt 3", measures: "[18] - 3 mm. after [19]", pictures: [["C Trumpet 1", "1178"]]),
+    Excerpt(id: 84, description: "Excerpt 4", measures: "8 mm. before [51] - 9 mm. after [53]", pictures: [["C Trumpet 1", "1179"], ["C Trumpet 2", "1180"], ["C Trumpet 3", "1181"], ["C Trumpet 4", "1182"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let straussDeathAndTransfiguration = Composition(id: 42, composer: "Richard Strauss", composerLast: "Strauss", name: "Tod und Verklärung", date: "1889", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 85, description: "Excerpt 1 ", measures: "11 mm. after [Y] - [Z] ", pictures: [["C Trumpet 1", "1183"], ["C Trumpet 2", "1184"], ["F Trumpet 3", "1185"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let straussDonJuan = Composition(id: 43, composer: "Richard Strauss", composerLast: "Strauss", name: "Don Juan", date: "1889", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 86, description: "Excerpt 1", measures: "4 mm. after [F] - 3 mm. before [G]", pictures: [["E Trumpet 1", "1186"], ["E Trumpet 2", "1187"], ["E Trumpet 3", "1188"]]),
+    Excerpt(id: 87, description: "Excerpt 2", measures: "7 mm. after [H] - [K] ", pictures: [["E Trumpet 1", "1189"], ["E Trumpet 2", "1190"], ["E Trumpet 3", "1191"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let straussDonQuixote = Composition(id: 44, composer: "Richard Strauss", composerLast: "Strauss", name: "Don Quixote", date: "1897", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 88, description: "Excerpt 1", measures: "[3] - 4 mm. before [4]", pictures: [["D Trumpet 1", "1192"], ["D Trumpet 2", "1193"], ["D Trumpet 3", "1194"]]),
+    Excerpt(id: 89, description: "Excerpt 2", measures: "3 mm. before [37] - [38] ", pictures: [["D Trumpet 1", "1195"], ["D Trumpet 2", "1196"], ["D Trumpet 3", "1197"]]),
+    Excerpt(id: 90, description: "Excerpt 3", measures: "3 mm. before [67] - [69] ", pictures: [["D Trumpet 1", "1198"], ["D Trumpet 2", "1199"], ["D Trumpet 3", "1200"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let straussHeldenleben = Composition(id: 45, composer: "Richard Strauss", composerLast: "Strauss", name: "Ein Heldenleben", date: "1898", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 91, description: "Excerpt 1", measures: "[42] - [43]", pictures: [["B♭ Trumpet 1", "1201"], ["B♭ Trumpet 2", "1202"], ["B♭ Trumpet 3", "1203"]]),
+    Excerpt(id: 92, description: "Excerpt 2", measures: "7 mm. before [50] - [55]", pictures: [["E♭ Trumpet 1", "1210"], ["E♭ Trumpet 2", "1211"]]),
+    Excerpt(id: 93, description: "Excerpt 3", measures: "[58] - 2 mm. after [61]", pictures: [["B♭ Trumpet 1", "1204"], ["B♭ Trumpet 2", "1205"], ["B♭ Trumpet 3", "1206"], ["E♭ Trumpet 2", "1207"]]),
+    Excerpt(id: 94, description: "Excerpt 4", measures: "[65] - [66]", pictures: [["B♭ Trumpet 1", "1212"], ["B♭ Trumpet 2", "1213"], ["B♭ Trumpet 3", "1214"], ["E♭ Trumpet 1", "1215"], ["E♭ Trumpet 2", "1216"]]),
+    Excerpt(id: 95, description: "Excerpt 5", measures: "[80] - 1 mm. before [83]", pictures: [["B♭ Trumpet 1", "1208"], ["E Trumpet 1", "1209"]]),
+    Excerpt(id: 96, description: "Excerpt 6", measures: "8 mm. before End - End", pictures: [["B♭ Trumpet 1", "1217"], ["B♭ Trumpet 2", "1218"], ["B♭ Trumpet 3", "1219"], ["E♭ Trumpet 1", "1220"], ["E♭ Trumpet 2", "1221"]])
+], mutes: "Straight", videos: [
+    ["", ""]
+])
+
+let straussAlpineSymphony = Composition(id: 46, composer: "Richard Strauss", composerLast: "Strauss", name: "Eine Alpensinfonie", date: "1915", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 97, description: "Excerpt 1", measures: "5 mm. before [68] - [71]", pictures: [["B♭ Trumpet 1", "1222"], ["B♭ Trumpet 2", "1223"], ["C Trumpet 3", "1224"], ["C Trumpet 4", "1225"]]),
+    Excerpt(id: 98, description: "Excerpt 2", measures: "[75] - [76]", pictures: [["B♭ Trumpet 1", "1226"]]),
+    Excerpt(id: 99, description: "Excerpt 3", measures: "[113a] - 3 mm. before [114]", pictures: [["B♭ Trumpet 1", "1227"], ["B♭ Trumpet 2", "1228"], ["C Trumpet 3", "1229"], ["C Trumpet 4", "1230"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let straussBourgeois = Composition(id: 47, composer: "Richard Strauss", composerLast: "Strauss", name: "Le bourgeois gentilhomme", date: "1912", era: "Late Romantic", genre: "Incidental Music", excerpts: [
+    Excerpt(id: 100, description: "Excerpt 1", measures: "No. 3, 4 mm. before [33] - [33]", pictures: [["B♭ Trumpet", "1231"]]),
+    Excerpt(id: 101, description: "Excerpt 2", measures: "No. 7, [6] - End", pictures: [["B♭ Trumpet", "1232"]]),
+    Excerpt(id: 102, description: "Excerpt 3", measures: "No. 9, [104] - 4 mm. after [106]", pictures: [["B♭ Trumpet", "1233"]]),
+    Excerpt(id: 103, description: "Excerpt 4", measures: "No. 9, 4 mm. before [111] - [115]", pictures: [["B♭ Trumpet", "1234"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let straussSymphoniaDomestica = Composition(id: 48, composer: "Richard Strauss", composerLast: "Strauss", name: "Sinfonia Domestica", date: "1903", era: "Late Romantic", genre: "Symphonic Poem", excerpts: [
+    Excerpt(id: 104, description: "Excerpt 1", measures: "1 mm. before [2] - [2] ", pictures: [["F Trumpet 1", "1235"]]),
+    Excerpt(id: 105, description: "Excerpt 2", measures: "[89] - [90]", pictures: [["C Trumpet 3", "1236"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let straussEulenspiegel = Composition(id: 49, composer: "Richard Strauss", composerLast: "Strauss", name: "Till Eulenspiegels lustige Streiche", date: "1895", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 106, description: "Excerpt 1", measures: "[14] - 5 mm. after [14]", pictures: [["F Trumpet 1", "1237"], ["F Trumpet 2", "1238"]]),
+    Excerpt(id: 107, description: "Excerpt 2", measures: "2 mm. after [24] - 3 mm. before [26]", pictures: [["F Trumpet 1", "1239"], ["F Trumpet 2", "1240"]]),
+    Excerpt(id: 108, description: "Excerpt 3", measures: "9 mm. after [27] - 7 mm. after [28]", pictures: [["C Trumpet 3", "1241"]]),
+    Excerpt(id: 109, description: "Excerpt 4", measures: "[36] - 4 mm. before [38] ", pictures: [["F Trumpet 1", "1242"], ["F Trumpet 2", "1243"], ["F Trumpet 3", "1244"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let stravinskySoldier = Composition(id: 50, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "L'histoire du soldat", date: "1918", era: "Modern", genre: "Theatrical Work", excerpts: [
+    Excerpt(id: 110, description: "Excerpt 1", measures: "The Royal March, Beginning - 2 mm. after [3]", pictures: [["B♭ Cornet", "1245"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let stravinskyFireworks = Composition(id: 51, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "Feu d'artifice", date: "1908", era: "Modern", genre: "Orchestral Fantasy", excerpts: [
+    Excerpt(id: 111, description: "Excerpt 1", measures: "[1] - [9]", pictures: [["A Trumpet 1", "1246"], ["A Trumpet 2", "1247"], ["A Trumpet 3", "1248"]])
+], mutes: "", videos: [
+    ["", ""]
+])
 
 
 let pictures = [["F Trumpet 1", ""], ["F Trumpet 2", ""], ["F Trumpet 3", ""]]
@@ -386,17 +471,17 @@ X Rimsky-Korsakov – Scheherazade
 X Schumann – Symphony No. 2
 X Scriabin – Le Poème De L’Extase
 X Sibelius – Symphony No. 2
- Strauss – Also sprach Zarathustra
- Strauss – Death and Transfiguration
- Strauss – Don Juan
- Strauss – Don Quixote
- Strauss – Ein Heldenleben
- Strauss – Eine Alpensinfonie
- Strauss – Le bourgeois gentilhomme
- Strauss – Symphonia Domestica
- Strauss – Till Eulenspiegels lustige Streiche
- Stravinsky - The Soldier's Tale
- Stravinsky – Fireworks
+X Strauss – Also sprach Zarathustra
+X Strauss – Death and Transfiguration
+X Strauss – Don Juan
+X Strauss – Don Quixote
+X Strauss – Ein Heldenleben
+X Strauss – Eine Alpensinfonie
+X Strauss – Le bourgeois gentilhomme
+X Strauss – Symphonia Domestica
+X Strauss – Till Eulenspiegels lustige Streiche
+X Stravinsky - The Soldier's Tale
+X Stravinsky – Fireworks
  Stravinsky – Petrushka
  Stravinsky – The Firebird (1919)
  Stravinsky – The Rite of Spring
@@ -485,9 +570,11 @@ let sibelius = Composer(id: 17, name: "Jean Sibelius", ipa: "ʒɑn  sɪˈbeɪ 
 ])
 
 let rStrauss = Composer(id: 18, name: "Richard Strauss", ipa: "ˈʁɪçaʁt ˈʃtʁaʊs", image: 2018, country: "Germany", dates: "1864-1949", bio: "Richard Strauss was one of the leading composers of the Romantic Era. He, along with Gustav Mahler, were considered successors of Richard Wagner. Although Strauss composed music for almost every classical genre, he is most famous for his tone poems. Strauss' compositional output began when he was just six years old, and continued almost eighty years later until his death.", excerpts: [
+    straussAlsoSprach, straussDonJuan, straussDonQuixote, straussHeldenleben, straussAlpineSymphony, straussBourgeois, straussSymphoniaDomestica, straussEulenspiegel, straussDeathAndTransfiguration
 ])
 
 let stravinsky = Composer(id: 19, name: "Igor Stravinsky", ipa: "ˈi gɔr strəˈvɪn ski", image: 2019, country: "Russia", dates: "1882-1971", bio: "Igor Stravinsky was one of the most influential composers of the twentieth century. Stravinsky's music is very unique from that of other composers, and often contains russian folk melodies. Throughout his life, the kinds of compositions that he composed also changed dramatically, from symphonies, to chamber music, to ballets.", excerpts: [
+    stravinskySoldier, stravinskyFireworks
 ])
 
 let tchaikovsky = Composer(id: 20, name: "Pyotr Ilyich Tchaikovsky", ipa: "ˈpyɔtr iˈlyitʃ tʃaɪˈkɒfski", image: 2020, country: "Russia", dates: "1840-1893", bio: "Tchaikovsky was the first Russian composer to gain international fame. Tchaikovsky recieved a western European style music education, which seemed to counter the traditional Russian music practices. This dichotomy posed a great challenge for Tchaikovsky, one that affected his self confidence a lot. Although Tchaikovsky's music gained popular support, his life was deeply affected by depression and personal crises.", excerpts: [
@@ -506,7 +593,7 @@ class TrumpetContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        bachBrandenburg2, bachCantata, bachChristmasOratorio, bachMagnificant, bachMassB, beethovenLeonore2, beethovenLeonore3, beethoven5, beethoven9, beethovenViolin, berliozRomanCarnival, berliozSymphonie, bizetCarmen, brahmsAcademic, brahms1, brahms2, bruckner4, bruckner7, bruckner8, debussyLaMer, debussyNocturnes, donizettiDonPasquale, dvorak8, dvorak9, handelMessiah, haydn100, mahlerDasLied, mahler1, mahler2, mahler3, mahler4, mahler5, mahler6, mahler7, mahler9, mozartSerenade9, rimskykorsakovCappricio, rimskyKorsakovScheherazade, schumann2, scriabin4, sibelius2
+        bachBrandenburg2, bachCantata, bachChristmasOratorio, bachMagnificant, bachMassB, beethovenLeonore2, beethovenLeonore3, beethoven5, beethoven9, beethovenViolin, berliozRomanCarnival, berliozSymphonie, bizetCarmen, brahmsAcademic, brahms1, brahms2, bruckner4, bruckner7, bruckner8, debussyLaMer, debussyNocturnes, donizettiDonPasquale, dvorak8, dvorak9, handelMessiah, haydn100, mahlerDasLied, mahler1, mahler2, mahler3, mahler4, mahler5, mahler6, mahler7, mahler9, mozartSerenade9, rimskykorsakovCappricio, rimskyKorsakovScheherazade, schumann2, scriabin4, sibelius2, straussAlsoSprach, straussDonJuan, straussDonQuixote, straussHeldenleben, straussAlpineSymphony, straussBourgeois, straussSymphoniaDomestica, straussEulenspiegel, straussDeathAndTransfiguration, stravinskySoldier, stravinskyFireworks
     ]
     
     /**

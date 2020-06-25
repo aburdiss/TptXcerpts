@@ -85,7 +85,6 @@ struct RandomCompositionView: View {
                 .scaledToFit()
             
             Spacer()
-            
            
         }
         .onAppear() {
