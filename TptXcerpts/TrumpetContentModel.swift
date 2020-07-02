@@ -425,6 +425,93 @@ let stravinskyFireworks = Composition(id: 51, composer: "Igor Stravinsky", compo
     ["", ""]
 ])
 
+let stravinskyPetrushka = Composition(id: 52, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "Petrushka", date: "1911", era: "Modern", genre: "Ballet", excerpts: [
+    Excerpt(id: 112, description: "Excerpt 1", measures: "Ballerina’s Dance, 1 mm. before [69] - [70]", pictures: [["B♭ Cornet 1", "1249"]]),
+    Excerpt(id: 113, description: "Excerpt 2", measures: "Waltz, 4 mm. after [71] - 1 mm. before [72]", pictures: [["B♭ Cornet 1", "1250"]]),
+    Excerpt(id: 114, description: "Excerpt 3", measures: "Waltz, [75] - [76] ", pictures: [["B♭ Cornet 1", "1251"]]),
+    Excerpt(id: 115, description: "Excerpt 4", measures: "Apparition Of Petrushka’s Ghost:, [132]  - End", pictures: [["D Piccolo Trumpet 1", "1252"], ["B♭ Trumpet 2", "1253"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let stravinskyRite = Composition(id: 53, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "The Rite of Spring", date: "1913", era: "Modern", genre: "Ballet", excerpts: [
+    Excerpt(id: 116, description: "Excerpt 1", measures: "1 mm. before [11] - [12] ", pictures: [["D Piccolo Trumpet 1", "1254"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let stravinskyNightengale = Composition(id: 54, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "Le Chant du rossignol", date: "1917", era: "Modern", genre: "Symphonic Poem", excerpts: [
+    Excerpt(id: 117, description: "Excerpt 1", measures: "[22] - [23]", pictures: [["C Trumpet 1 and 2", "1255"]]),
+    Excerpt(id: 118, description: "Excerpt 2", measures: "[55] - [57]", pictures: [["C Trumpet 1 and 2", "1256"]]),
+    Excerpt(id: 119, description: "Excerpt 3", measures: "[68] - [71]", pictures: [["C Trumpet 1 and 2", "1257"]]),
+    Excerpt(id: 120, description: "Excerpt 4", measures: "[76] - [77]", pictures: [["C Trumpet 1 and 2", "1258"]]),
+    Excerpt(id: 121, description: "Excerpt 5", measures: "[96] - End", pictures: [["C Trumpet 1 and 2", "1259"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let tchaikovskyCapriccio = Composition(id: 55, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Italian Capriccio", date: "1880", era: "Romantic", genre: "Capriccio", excerpts: [
+    Excerpt(id: 122, description: "Excerpt 1", measures: "8 mm. before [D] - [D] ", pictures: [["A Cornet 1", "1260"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let tchaikovskySwanLake = Composition(id: 56, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Swan Lake", date: "1877", era: "Romantic", genre: "Ballet", excerpts: [
+    Excerpt(id: 123, description: "Excerpt 1", measures: "No. 22, Andante quasi moderato", pictures: [["A Cornet 1", "1261"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let tchaikovsky4 = Composition(id: 57, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Symphony No. 4", date: "1878", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 124, description: "Excerpt 1", measures: "Beginning - [A]", pictures: [["F Trumpet 1", "1262"], ["F Trumpet 2", "1263"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let tchaikovsky5 = Composition(id: 58, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Symphony No. 5", date: "1888", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 125, description: "Excerpt 1", measures: "[Aa] - 6 mm. after [Bb]", pictures: [["A Trumpet 1", "1264"], ["A Trumpet 2", "1265"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let tchaikovskyNutcracker = Composition(id: 59, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "The Nutcracker", date: "1892", era: "Romantic", genre: "Ballet", excerpts: [
+    Excerpt(id: 126, description: "Excerpt 1", measures: "No. 12 (Divertissement), mm. 5 - 20", pictures: [["B♭ Trumpet 1", "1266"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let wagnerGotterdamerung = Composition(id: 60, composer: "Richard Wagner", composerLast: "Wagner", name: "Götterdämmerung", date: "1874", era: "Late Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 127, description: "Excerpt 1", measures: "Act III Scene II, [38] - [39]", pictures: [["E Trumpet 1 and 2", "1267"], ["E Trumpet 3", "1268"]]),
+    Excerpt(id: 128, description: "Excerpt 2", measures: "Act III Scene II, 4 mm. before [42] - [44]", pictures: [["C Trumpet 1 and 2", "1269"], ["C Trumpet 3", "1270"], ["C Bass Trumpet", "1271"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let wagnerMeistersinger = Composition(id: 61, composer: "Richard Wagner", composerLast: "Wagner", name: "Die Meistersinger von Nürnberg", date: "1867", era: "Late Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 129, description: "Excerpt 1", measures: "Prelude to Act I, mm. 66 - 74", pictures: [["F Trumpet 1", "1272"], ["F Trumpet 2", "1273"]]),
+    Excerpt(id: 130, description: "Excerpt 2", measures: "Prelude to Act I, mm. 211 - 222", pictures: [["F Trumpet 1", "1274"], ["F Trumpet 2", "1275"], ["C Trumpet 3", "1276"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let wagnerParsifal = Composition(id: 62, composer: "Richard Wagner", composerLast: "Wagner", name: "Parsifal", date: "1882", era: "Late Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 131, description: "Excerpt 1", measures: "Prelude to Act I, 8 mm. after [1] - 5 mm. before [3]", pictures: [["F Trumpet 1", "1277"], ["F Trumpet 3", "1278"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let wagnerRienzi = Composition(id: 63, composer: "Richard Wagner", composerLast: "Wagner", name: "Rienzi", date: "1840", era: "Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 132, description: "Excerpt 1", measures: "Overture, mm. 1 - 12", pictures: [["F Trumpet 1", "1279"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let wagnerTannhauser = Composition(id: 64, composer: "Richard Wagner", composerLast: "Wagner", name: "Tannhäuser", date: "1845", era: "Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 133, description: "Excerpt 1", measures: "Overture, 1 mm. before [M] - End", pictures: [["A Trumpet 1", "1280"], ["A Trumpet 2", "1281"], ["A Trumpet 3", "1282"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
 
 let pictures = [["F Trumpet 1", ""], ["F Trumpet 2", ""], ["F Trumpet 3", ""]]
 let flat = "♭"
@@ -482,19 +569,19 @@ X Strauss – Symphonia Domestica
 X Strauss – Till Eulenspiegels lustige Streiche
 X Stravinsky - The Soldier's Tale
 X Stravinsky – Fireworks
- Stravinsky – Petrushka
- Stravinsky – The Firebird (1919)
- Stravinsky – The Rite of Spring
- Stravinsky – The Song of the Nightingale
- Tchaikovsky – Capriccio Italien
- Tchaikovsky – Swan Lake
- Tchaikovsky – Symphony No. 4
- Tchaikovsky – Symphony No. 5
- Tchaikovsky – The Nutcracker (Ballet)
- Wagner – Götterdämmerung
- Wagner – Parsifal
- Wagner – Rienzi
- Wagner – Tannhäuser
+X Stravinsky – Petrushka
+X Stravinsky – The Rite of Spring
+X Stravinsky – The Song of the Nightingale
+X Tchaikovsky – Capriccio Italien
+X Tchaikovsky – Swan Lake
+X Tchaikovsky – Symphony No. 4
+X Tchaikovsky – Symphony No. 5
+X Tchaikovsky – The Nutcracker (Ballet)
+X Wagner - Die Meistersinger
+X Wagner – Götterdämmerung
+X Wagner – Parsifal
+X Wagner – Rienzi
+X Wagner – Tannhäuser
  */
 
 
@@ -574,14 +661,16 @@ let rStrauss = Composer(id: 18, name: "Richard Strauss", ipa: "ˈʁɪçaʁt ˈʃ
 ])
 
 let stravinsky = Composer(id: 19, name: "Igor Stravinsky", ipa: "ˈi gɔr strəˈvɪn ski", image: 2019, country: "Russia", dates: "1882-1971", bio: "Igor Stravinsky was one of the most influential composers of the twentieth century. Stravinsky's music is very unique from that of other composers, and often contains russian folk melodies. Throughout his life, the kinds of compositions that he composed also changed dramatically, from symphonies, to chamber music, to ballets.", excerpts: [
-    stravinskySoldier, stravinskyFireworks
+    stravinskySoldier, stravinskyFireworks, stravinskyPetrushka, stravinskyRite, stravinskyNightengale
 ])
 
 let tchaikovsky = Composer(id: 20, name: "Pyotr Ilyich Tchaikovsky", ipa: "ˈpyɔtr iˈlyitʃ tʃaɪˈkɒfski", image: 2020, country: "Russia", dates: "1840-1893", bio: "Tchaikovsky was the first Russian composer to gain international fame. Tchaikovsky recieved a western European style music education, which seemed to counter the traditional Russian music practices. This dichotomy posed a great challenge for Tchaikovsky, one that affected his self confidence a lot. Although Tchaikovsky's music gained popular support, his life was deeply affected by depression and personal crises.", excerpts: [
+    tchaikovskyCapriccio, tchaikovskySwanLake, tchaikovsky4, tchaikovsky5, tchaikovskyNutcracker
 ])
 
 
 let wagner = Composer(id: 21, name: "Richard Wagner", ipa: "ˈʁɪçaʁt ˈvaːɡnɐ", image: 2021, country: "Germany", dates: "1813-1883", bio: "Wagner is one of the most well known composers of all time. His music frequently appears in television shows and movies. He was most well known in his era for his operas, which usually run about four hours. Wagner was unusual as an opera composer because he himself wrote the liberetto for the operas he composed. Wagner had his own opera house constructed, which still stands to this day.", excerpts: [
+    wagnerMeistersinger, wagnerGotterdamerung, wagnerParsifal, wagnerTannhauser
 ])
 
 
@@ -593,7 +682,7 @@ class TrumpetContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        bachBrandenburg2, bachCantata, bachChristmasOratorio, bachMagnificant, bachMassB, beethovenLeonore2, beethovenLeonore3, beethoven5, beethoven9, beethovenViolin, berliozRomanCarnival, berliozSymphonie, bizetCarmen, brahmsAcademic, brahms1, brahms2, bruckner4, bruckner7, bruckner8, debussyLaMer, debussyNocturnes, donizettiDonPasquale, dvorak8, dvorak9, handelMessiah, haydn100, mahlerDasLied, mahler1, mahler2, mahler3, mahler4, mahler5, mahler6, mahler7, mahler9, mozartSerenade9, rimskykorsakovCappricio, rimskyKorsakovScheherazade, schumann2, scriabin4, sibelius2, straussAlsoSprach, straussDonJuan, straussDonQuixote, straussHeldenleben, straussAlpineSymphony, straussBourgeois, straussSymphoniaDomestica, straussEulenspiegel, straussDeathAndTransfiguration, stravinskySoldier, stravinskyFireworks
+        bachBrandenburg2, bachCantata, bachChristmasOratorio, bachMagnificant, bachMassB, beethovenLeonore2, beethovenLeonore3, beethoven5, beethoven9, beethovenViolin, berliozRomanCarnival, berliozSymphonie, bizetCarmen, brahmsAcademic, brahms1, brahms2, bruckner4, bruckner7, bruckner8, debussyLaMer, debussyNocturnes, donizettiDonPasquale, dvorak8, dvorak9, handelMessiah, haydn100, mahlerDasLied, mahler1, mahler2, mahler3, mahler4, mahler5, mahler6, mahler7, mahler9, mozartSerenade9, rimskykorsakovCappricio, rimskyKorsakovScheherazade, schumann2, scriabin4, sibelius2, straussAlsoSprach, straussDonJuan, straussDonQuixote, straussHeldenleben, straussAlpineSymphony, straussBourgeois, straussSymphoniaDomestica, straussEulenspiegel, straussDeathAndTransfiguration, stravinskySoldier, stravinskyFireworks, stravinskyPetrushka, stravinskyRite, stravinskyNightengale, tchaikovskyCapriccio, tchaikovskySwanLake, tchaikovsky4, tchaikovsky5, tchaikovskyNutcracker, wagnerMeistersinger, wagnerGotterdamerung, wagnerParsifal, wagnerTannhauser
     ]
     
     /**
