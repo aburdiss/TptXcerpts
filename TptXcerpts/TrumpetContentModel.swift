@@ -59,44 +59,72 @@ let bachBrandenburg2 = Composition(id: 0, composer: "Johann Sebastian Bach", com
     Excerpt(id: 1, description: "Excerpt 2", measures: "Mov. III, mm. 1 - 27", pictures: [["F Alto Trumpet", "1001"]]),
     Excerpt(id: 2, description: "Excerpt 3", measures: "Mov. III, mm. 41 - 57", pictures: [["F Alto Trumpet", "1002"]])
 ], mutes: "No", videos: [
-    // TODO: Brandenburg YouTube
-    ["", ""]
+    ["Freiburger Barockorchester", "3HSRIDtwsfM"],
+    ["Members of Los Angeles Philarmonic Orchestra", "NYOWdONwSyY"],
+    ["Münchener Bach-Orchester", "IETYYTMtL6U"],
+    ["The English Baroque Soloists", "RNiKx8yHp1w"],
+    ["The English Concert (With Score)", "haRanlw9eSg"],
 ])
 
 let bachCantata = Composition(id: 1, composer: "Johann Sebastian Bach", composerLast: "Bach", name: "Cantata BWV 51", date: "1730", era: "Baroque", genre: "Cantata", excerpts: [
     Excerpt(id: 3, description: "Excerpt 1", measures: "mm. 1 - 29", pictures: [["C Trumpet", "1003"]])
 ], mutes: "No", videos: [
-    // TODO: Cantata YouTube
-    ["", ""]
+    ["Chambermusic Festival of Liza Ferschtman", "Iw5wT0_42n0"],
+    ["Gustav Leonhardt, Leonhardt-Consort", "xbbMKmYFml8"],
+    ["Helmuth Rilling, Real Filharmonia de Galicia", "BFDtRn396WY"],
+    ["John Eliot Gardiner, English Baroque Soloists", "oaH1Qbw7wYQ"],
+    ["Lars Ulrik Mortensen, European Union Baroque Orchestra", "mM9lpVIC_JQ"],
+    ["Somogyváry Ákos, Caritas Collectio Chamber Orchestra (With Score)", "qrR3VmrQxrc"],
 ])
 
 let bachChristmasOratorio = Composition(id: 2, composer: "Johann Sebastian Bach", composerLast: "Bach", name: "Weihnachtsoratorium", date: "1735", era: "Baroque", genre: "Oratorio", excerpts: [
     Excerpt(id: 4, description: "Excerpt 1", measures: "No. 64, Choral", pictures: [["D Trumpet 1", "1004"], ["D Trumpet 2", "1005"], ["D Trumpet 3", "1006"]])
 ], mutes: "No", videos: [
-    // TODO: Christmas YouTube
-    ["", ""]
+    ["Hans-Christoph Rademann, Freiburg Baroque Orchestra", "ocktBnecnC0"],
+    ["John Eliot Gardiner, English Baroque Soloists", "zpaNo4mWRBE"],
+    ["Nikolaus Harnoncourt, Soloists of the Tolzer Knabenchor", "98UjjwzJBFE"],
+    ["Nikolaus Harnoncourt, Soloists of the Tolzer Knabenchor", "LJts7bpW2VE"],
+    ["René Jacobs, Akademie für Alte Musik Berlin", "vXNX6Ulzvn0"],
+    ["Thomaskantor Kurt Thomas, Gewandhaus Orchester", "M0LNSAj3Xhc"],
 ])
 
 let bachMagnificant = Composition(id: 3, composer: "Johann Sebastian Bach", composerLast: "Bach", name: "Magnificat in D major", date: "1735", era: "Baroque", genre: "Magnificant", excerpts: [
     Excerpt(id: 5, description: "Excerpt 1", measures: "No. 1, mm. 1 - 49", pictures: [["D Trumpet 1", "1007"], ["D Trumpet 2", "1008"], ["D Trumpet 3", "1009"]])
 ], mutes: "No", videos: [
-    // TODO: Magnificant YouTube
-    ["", ""]
+    ["Avner Biron, The Isarel Camerata Jerusalem", "P4CluTzJX9U"],
+    ["Emmanuelle Haïm, Frankfurt Radio Symphony", "3EPk6zOaLH0"],
+    ["John Eliot Gardiner, English Baroque Soloists", "hJQJkZKay2Q"],
+    ["Karl Richter, Münchener Bach-Orchester", "jxq3kMArYjo"],
+    ["Matthias Beckert, Monteverdi Ensemble", "QQAWqqaUTHE"],
+    ["Michel Corboz (With Score)", "q8Oeq12zjZk"],
+    ["Nikolaus Harnoncourt, Concentus Musicus Vienna", "41blIyHQ0hs"],
 ])
 
 let bachMassB = Composition(id: 4, composer: "Johann Sebastian Bach", composerLast: "Bach", name: "Mass in B minor", date: "1749", era: "Baroque", genre: "Mass", excerpts: [
     Excerpt(id: 6, description: "Excerpt 1", measures: "Credo, mm. 29 - 47", pictures: [["D Trumpet 1", "1010"]]),
     Excerpt(id: 7, description: "Excerpt 2", measures: "Credo, mm. 65 - End", pictures: [["D Trumpet 1", "1011"], ["D Trumpet 2", "1012"], ["D Trumpet 3", "1013"]])
 ], mutes: "No", videos: [
-    // TODO: Mass YouTube
-    ["", ""]
+    ["Frans Brüggen, Orchestra of the 18th Century (With Score)", "EH6wdRVqoXQ"],
+    ["Harry Bicket, The English Concert", "7F7TVM8m95Y"],
+    ["John Eliot Gardiner, English Baroque Soloists", "m7obnfrlP0s"],
+    ["John Eliot Gardiner, Monteverdi Choir", "CT6vRpmyiW0"],
+    ["Jordi Savall, Le Concert des Nations", "tDteccEwZNI"],
+    ["Jos van Veldhoven, Netherlands Bach Society", "3FLbiDrn8IE"],
+    ["Karl Richter, Münchener Bach-Orchester", "vw9eEIfohj4"],
+    ["René Jacobs, Akademie fur Alte Musik Berlin", "So704KMhspk"],
 ])
 
 let beethovenLeonore2 = Composition(id: 5, composer: "Ludwig Van Beethoven", composerLast: "Beethoven", name: "Leonora Overture No.2", date: "1805", era: "Early Romantic", genre: "Overture", excerpts: [
     Excerpt(id: 8, description: "Excerpt 1", measures: "mm. 392 - 411", pictures: [["E♭ Trumpet", "1014"]])
 ], mutes: "No", videos: [
-    // TODO: Leonore 2 YouTube
-    ["", ""]
+    ["Bernard Haitink, London Philharmonic Orchestra", "egp07RjNlQI"],
+    ["Claudio Abbado, Vienna Philhamonic Orchestra", "drvzLKu9uI0"],
+    ["Claudio Abbado, Vienna Philharmonic Orchestra (With Score)", "UxB_28XuaO4"],
+    ["George Szell, Cleveland Orchestra", "ykvxFeLYhWg"],
+    ["George Szell, Cleveland Orchestra", "QEFOJQM3BNU"],
+    ["Herbert Blomstedt, Orchestre de Paris", "TwwiBZh5Wys"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "g1o95TFXMDA"],
+    ["Roy Goodman, The Hanover Band", "gGhv2RQ8P_I"],
 ])
 
 
@@ -174,16 +202,24 @@ let berliozSymphonie = Composition(id: 11, composer: "Hector Berlioz", composerL
     Excerpt(id: 21, description: "Excerpt 6", measures: "Mov. II, 14 mm. before [36] - End", pictures: [["B♭ Cornet obbligato", "1037"]]),
     Excerpt(id: 22, description: "Excerpt 7", measures: "Mov. IV, [53] - 7 mm. before [54] ", pictures: [["B♭ Trumpet 1", "1038"], ["B♭ Trumpet 2", "1039"], ["B♭ Cornet 1", "1040"], ["B♭ Cornet 2", "1041"]])
 ], mutes: "No", videos: [
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony Orchestra", "AgXW-57UDMc"],
     ["정명훈 (Chung Myung-Whun)", "5HgqPpjIH5c"],
-    ["Leopold Stokowski, New Philharmonia Orchestra", "ewoAW-Zyuj8"],
+    ["Gustavo Dudamel, Orchestre philharmonique de Radio France", "HDHPgqv4hsw"],
+    ["Herbert von Karajan, Berlin Philharmonic Orchestra", "sK4dz6Gbcdk"],
+    ["Leonard Bernstein, Orchestre National de France", "rQXtC6B3CKQ"],
+    ["Leopold Stokowski, New Philharmonia Orchestra (With Score)", "ewoAW-Zyuj8"],
     ["Mariss Jansons, Bavarian Radio Symphony Orchestra", "yK6iAxe0oEc?t=284"],
 ])
 
 let bizetCarmen = Composition(id: 12, composer: "Georges Bizet", composerLast: "Bizet", name: "Carmen Suite No. 1", date: "1874", era: "Romantic", genre: "Orchestral Suite", excerpts: [
     Excerpt(id: 23, description: "Excerpt 1", measures: "No. 1", pictures: [["A Trumpet 1", "1042"], ["A Trumpet 2", "1043"]])
 ], mutes: "No", videos: [
-    // TODO: Carmen YouTube
-    ["", ""]
+    ["Boian Videnoff, Mannheimer Philharmoniker", "qvit0kufwZ4"],
+    ["Daniel Barenboim, Berliner Philharmoniker", "wwwL15GQuss"],
+    ["Jane Ezbicki, New England Conservatory's Youth Repertory Orchestra", "tSpzenCTucA"],
+    ["Lukasz Sidoruk, Symphony Orchestra of The Karol Szymanowski Music School", "opMCCil4Pjk"],
+    ["Leonard Slatkin, Saint Louis Symphony Orchestra", "Zoqpn_7I7Dw"],
+    ["Tan Wee Hsin, Singapore National Youth Orchestra", "hh7dxdlTPU8"],
 ])
 
 let brahmsAcademic = Composition(id: 13, composer: "Johannes Brahms", composerLast: "Brahms", name: "Academic Festival Overture", date: "1880", era: "Romantic", genre: "Overture", excerpts: [
@@ -271,8 +307,12 @@ let bruckner8 = Composition(id: 18, composer: "Anton Bruckner", composerLast: "B
 let debussyNocturnes = Composition(id: 19, composer: "Claude Debussy", composerLast: "Debussy", name: "Nocturnes", date: "1899", era: "Romantic", genre: "Nocturne", excerpts: [
     Excerpt(id: 38, description: "Excerpt 1", measures: "Fêtes, 8 mm. after [10] - [11] ", pictures: [["F Trumpet 1 and 2", "1079"], ["F Trumpet 3", "1080"]])
 ], mutes: "Straight", videos: [
-    // TODO: Nocturnes YouTube
-    ["", ""]
+    ["Charles Dutoit, Montreal Symphony Orchestra", "spXwXLqFLvs"],
+    ["Mikko Franck, Orchestre philharmonique de Radio France", "M0LR1Rw0W4c"],
+    ["Pablo Heras-Casado, Frankfurt Radio Symphony", "t20nBwcH3bQ"],
+    ["Pierre Boulez, Vienna Philharmonic", "1s4LZbr_h50"],
+    ["Sergiu Celibidache, Radio-Sinfonieorchester Stuttgart", "uhUM6zSav08"],
+    ["Vladimir Ashkenazy, Cleveland Orchestra", "obv33I2Kf10"],
 ])
 
 let debussyLaMer = Composition(id: 20, composer: "Claude Debussy", composerLast: "Debussy", name: "La Mer", date: "1905", era: "Romantic", genre: "Orchestral Piece", excerpts: [
@@ -295,8 +335,7 @@ let dvorak8 = Composition(id: 22, composer: "Antonín Dvořák", composerLast: "
     Excerpt(id: 43, description: "Excerpt 1", measures: "Mov. I, 17 mm. after [K] - 2 mm. after [L] ", pictures: [["C Trumpet 1", "1087"], ["C Trumpet 2", "1088"]]),
     Excerpt(id: 44, description: "Excerpt 2", measures: "Mov. II, 7 mm. before [E] - [F] ", pictures: [["C Trumpet 1", "1089"], ["C Trumpet 2", "1090"]]),
     Excerpt(id: 45, description: "Excerpt 3", measures: "Mov. IV, mm. 1 - 18", pictures: [["D Trumpet 1", "1091"], ["D Trumpet 2", "1092"]])
-    // TODO: Dvorak 8 Mutes
-], mutes: "", videos: [
+], mutes: "Straight", videos: [
     ["George Szell, The Cleveland Orchestra", "GgL8JTrGbuU"],
     ["Herbert von Karajan, Wiener Philharmoniker", "zfP29uN33L8"],
     ["Manfred Honeck, Frankfurt Radio Symphony Orchestra", "QXAv-NGppFw"],
@@ -308,8 +347,7 @@ let dvorak8 = Composition(id: 22, composer: "Antonín Dvořák", composerLast: "
 let dvorak9 = Composition(id: 23, composer: "Antonín Dvořák", composerLast: "Dvořák", name: "Symphony No. 9", date: "1893", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 46, description: "Excerpt 1", measures: "Movement II, 5 mm. after [4] - [5] ", pictures: [["C Trumpet 1", "1093"], ["C Trumpet 2", "1094"]]),
     Excerpt(id: 47, description: "Excerpt 2", measures: "Mov. IV, mm. 8 - 25", pictures: [["E Trumpet 1", "1095"], ["E Trumpet 2", "1096"]])
-    // TODO: Dvorak 9 Mutes
-], mutes: "", videos: [
+], mutes: "No", videos: [
     ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "jOofzffyDSA"],
     ["Ferenc Fricsay, Berliner Philharmoniker (With Score)", "oLWpgWuUaU4"],
     ["George Szell, The Cleveland Orchestra", "jxoygdpGET0"],
@@ -399,8 +437,7 @@ let mahler5 = Composition(id: 31, composer: "Gustav Mahler", composerLast: "Mahl
     Excerpt(id: 62, description: "Excerpt 3", measures: "Mov. I, [10] - 7 mm. before [12]", pictures: [["B♭ Trumpet 1", "1133"], ["B♭ Trumpet 2", "1134"], ["B♭ Trumpet 3", "1135"], ["B♭ Trumpet 4", "1136"]]),
     Excerpt(id: 63, description: "Excerpt 4", measures: "Mov. I, 1 mm. before [13] - 1 mm. before [14] ", pictures: [["F Trumpet 1", "1137"]]),
     Excerpt(id: 64, description: "Excerpt 5", measures: "Mov. III, [13] - 8 mm. after [13] ", pictures: [["B♭ Trumpet 1", "1138"]])
-    // TODO: Mahler 5 Mutes
-], mutes: "", videos: [
+], mutes: "Straight", videos: [
     ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "fEGNNuEM3Fc"],
     ["Bernard Haitink, Koninklijk Concertgebouworkest", "MruTSRVecMo"],
     ["Christoph Eschenbach, Sinfónica de Galicia", "1tCk6nOOdzI"],
@@ -414,8 +451,7 @@ let mahler5 = Composition(id: 31, composer: "Gustav Mahler", composerLast: "Mahl
 let mahler6 = Composition(id: 32, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 6", date: "1904", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 65, description: "Excerpt 1", measures: "Movement I: 6 measures after [2] to 2 measures before [3]", pictures: [["B♭ Trumpet 1", "1139"]]),
     Excerpt(id: 66, description: "Excerpt 2", measures: "Mov. IV, 6 mm. after [105] - [106]", pictures: [["F Trumpet 1", "1140"], ["F Trumpet 2", "1141"], ["B♭ Trumpet 3", "1142"], ["B♭ Trumpet 4", "1143"]])
-    // TODO: Mahler 6 Mutes
-], mutes: "", videos: [
+], mutes: "Straight", videos: [
     ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "25tSq_dYL3c"],
     ["Bernard Haitink, Chicago Symphony Orchestra", "YUj_GAKWziE"],
     ["Claudio Abbado, Berlin Philharmonic", "QmgUfF_DCLg"],
@@ -429,8 +465,7 @@ let mahler6 = Composition(id: 32, composer: "Gustav Mahler", composerLast: "Mahl
 
 let mahler7 = Composition(id: 33, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 7", date: "1906", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 67, description: "Excerpt 1", measures: "Mov. V, 4 mm. before [224] - 3 mm. after [229] ", pictures: [["B♭ Trumpet 1", "1144"], ["B♭ Trumpet 2", "1145"], ["B♭ Trumpet 3", "1146"]])
-    // TODO: Mahler 7 Mutes
-], mutes: "", videos: [
+], mutes: "Straight", videos: [
     ["Bernard Haitink, Koninklijk Concertgebouworkest", "IEoYrRBAGqA"],
     ["Claudio Abbado, Lucerne Festival Orchestra", "QdxvC7NNSLQ"],
     ["Edo de Waart, The Radio Philharmonic Orchestra", "tGeJRmd0MSA"],
@@ -445,8 +480,7 @@ let mahler7 = Composition(id: 33, composer: "Gustav Mahler", composerLast: "Mahl
 
 let mahler9 = Composition(id: 34, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 9", date: "1910", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 68, description: "Excerpt 1", measures: "Mov. III, 20 mm. after [36] - 8 mm. before [38]", pictures: [["F Trumpet 1", "1147"], ["F Trumpet 2", "1148"], ["F Trumpet 3", "1149"]])
-    // TODO: Mahler 9 Mutes
-], mutes: "", videos: [
+], mutes: "Straight", videos: [
     ["Bernard Haitink, Concertgebouw Orchestra", "RjYs99atLUI"],
     ["정명훈 (Chung Myung-Whun), Concergebouworkest", "7NKvBNliyN8"],
     ["Claudio Abbado, Lucerne Festival Orchestra", "udhHFt--10Q"],
@@ -459,16 +493,14 @@ let mahler9 = Composition(id: 34, composer: "Gustav Mahler", composerLast: "Mahl
 
 let mozartSerenade9 = Composition(id: 35, composer: "Wolfgang Amadeus Mozart", composerLast: "Mozart", name: "Serenade in D major", date: "1779", era: "Classical", genre: "Serenade", excerpts: [
     Excerpt(id: 69, description: "Excerpt 1", measures: "Mov. VI, Trio II - D", pictures: [["A Posthorn", "1150"]])
-    // TODO: Serenade 9 Mutes
-], mutes: "", videos: [
+], mutes: "No", videos: [
     // TODO: Serenade 9 YouTube
     ["", ""]
 ])
 
 let rimskykorsakovCappricio = Composition(id: 36, composer: "Nikolay Rimsky-Korsakov", composerLast: "Rimsky-Korsakov", name: "Capriccio espagnol", date: "1887", era: "Romantic", genre: "Capriccio", excerpts: [
     Excerpt(id: 70, description: "Excerpt 1", measures: "Mov. IV, Beginning - [L]", pictures: [["B♭ Trumpet 1", "1151"], ["B♭ Trumpet 2", "1152"]])
-    // TODO: Cappricio Espagnol Mutes
-], mutes: "", videos: [
+], mutes: "No", videos: [
     ["Leonard Bernstein, New York Philharmonic Orchestra", "3rqwvMMxeA8"],
     ["Mariss Jansons, Bavarian Radio Symphony Orchestra", "vh8X9sYXvmI"],
     ["Pablo Heras-Casado, Frankfurt Radio Symphony", "X_HSpn3tE_A"],
@@ -483,8 +515,7 @@ let rimskyKorsakovScheherazade = Composition(id: 37, composer: "Nikolay Rimsky-K
     Excerpt(id: 74, description: "Excerpt 4", measures: "Mov. IV, [C] - [E]", pictures: [["A Trumpet 1", "1158"], ["A Trumpet 2", "1159"]]),
     Excerpt(id: 75, description: "Excerpt 5", measures: "Mov. IV, 9 mm. before [Q] - [R] ", pictures: [["A Trumpet 1", "1160"], ["B♭ Trumpet 2", "1161"]]),
     Excerpt(id: 76, description: "Excerpt 6", measures: "Mov. IV, [T] - [U] ", pictures: [["A Trumpet 1", "1162"]])
-    // TODO: Scheherazade Mutes
-], mutes: "", videos: [
+], mutes: "Straight (Tpt 1 only)", videos: [
     ["Eugene Ormandy, Philadelphia Orchestra", "LEN5ObBND88"],
     ["Leif Segerstam, Sinfónica de Galicia", "zY4w4_W30aQ"],
     ["Nejc Bečan, Gimnazija Kranj Symphony Orchestra", "17lEx0ytE_0"],
@@ -495,8 +526,7 @@ let rimskyKorsakovScheherazade = Composition(id: 37, composer: "Nikolay Rimsky-K
 
 let schumann2 = Composition(id: 38, composer: "Robert Schumann", composerLast: "Schumann", name: "Symphony No. 2", date: "1846", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 77, description: "Excerpt 1", measures: "Mov. I, Beginning to mm. 13", pictures: [["C Trumpet 1", "1163"], ["C Trumpet 2", "1164"]])
-    // TODO: Schumann 2 Mutes
-], mutes: "", videos: [
+], mutes: "No", videos: [
     ["Daniel Harding, Mahler Chamber Orchestra", "oQk8jQydMqc"],
     ["George Szell, The Cleveland Orchestra", "f6_gZYQNhpI"],
     ["Leonard Bernstein, New York Philharmonic", "kpCDIn8Q2ss"],
@@ -509,8 +539,7 @@ let schumann2 = Composition(id: 38, composer: "Robert Schumann", composerLast: "
 
 let scriabin4 = Composition(id: 39, composer: "Aleksandr Scriabin", composerLast: "Scriabin", name: "Symphony No. 4", date: "1908", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 78, description: "Excerpt 1", measures: "mm. 13 - 8 mm. before [1]", pictures: [["B♭ Trumpet 1", "1165"]])
-    // TODO: Scriabin 4 Mutes
-], mutes: "", videos: [
+], mutes: "Straight", videos: [
     // TODO: Scriabin 4 YouTube
     ["", ""]
 ])
@@ -518,8 +547,7 @@ let scriabin4 = Composition(id: 39, composer: "Aleksandr Scriabin", composerLast
 let sibelius2 = Composition(id: 40, composer: "Jean Sibelius", composerLast: "Sibelius", name: "Symphony No. 2", date: "1902", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 79, description: "Excerpt 1", measures: "Mov. I, 3 mm. before [N] - 10 mm. before [O]", pictures: [["F Trumpet 1", "1166"], ["F Trumpet 2", "1167"], ["F Trumpet 3", "1168"]]),
     Excerpt(id: 80, description: "Excerpt 2", measures: "Mov. IV, [Q] - 6 mm. before [S]", pictures: [["F Trumpet 1", "1169"], ["F Trumpet 2", "1170"], ["F Trumpet 3", "1171"]])
-    // TODO: Sibelius 2 Mutes
-], mutes: "", videos: [
+], mutes: "No", videos: [
     ["Dima Slobodeniouk, Orquesta Sinfónica de Galicia", "g82t0AJ1FnY"],
     ["George Szell, Royal Concertgebouw Orchestra", "raIy56s-O7w"],
     ["Gustavo Dudamel, Gothenburg Symphony Orchestra", "bpCcRZY1grc"],
@@ -536,8 +564,7 @@ let straussAlsoSprach = Composition(id: 41, composer: "Richard Strauss", compose
     Excerpt(id: 82, description: "Excerpt 2", measures: "10 mm. after [3] - 13 mm. after [3]", pictures: [["C Trumpet 1", "1176"], ["C Trumpet 2", "1177"]]),
     Excerpt(id: 83, description: "Excerpt 3", measures: "[18] - 3 mm. after [19]", pictures: [["C Trumpet 1", "1178"]]),
     Excerpt(id: 84, description: "Excerpt 4", measures: "8 mm. before [51] - 9 mm. after [53]", pictures: [["C Trumpet 1", "1179"], ["C Trumpet 2", "1180"], ["C Trumpet 3", "1181"], ["C Trumpet 4", "1182"]])
-    // TODO: Also Sprach Mutes
-], mutes: "", videos: [
+], mutes: "Straight", videos: [
     ["Georg Solti, Chicago Symphony Orchestra", "IFPwm0e_K98"],
     ["Giuseppe Sinopoli, Staatskapelle Dresden", "LpNRBublNr0"],
     ["Gustavo Dudamel, Vienna Philharmonic Orchestra", "ETveS23djXM"],
@@ -550,8 +577,7 @@ let straussAlsoSprach = Composition(id: 41, composer: "Richard Strauss", compose
 
 let straussDeathAndTransfiguration = Composition(id: 42, composer: "Richard Strauss", composerLast: "Strauss", name: "Tod und Verklärung", date: "1889", era: "Late Romantic", genre: "Tone Poem", excerpts: [
     Excerpt(id: 85, description: "Excerpt 1 ", measures: "11 mm. after [Y] - [Z] ", pictures: [["C Trumpet 1", "1183"], ["C Trumpet 2", "1184"], ["F Trumpet 3", "1185"]])
-    // TODO: Death and Transfiguration Mutes
-], mutes: "", videos: [
+], mutes: "No", videos: [
     ["Alexis Hauser, McGill Symphony Orchestra", "Pd_GmPLPpRg"],
     ["Arturo Toscanini, NBC Orchestra (With Score)", "L3bD7g3mp_Y"],
     ["David Zinman, Tonhalle Orchestra Zürich (With Score)", "6hfQpaePuxo"],
@@ -567,8 +593,7 @@ let straussDeathAndTransfiguration = Composition(id: 42, composer: "Richard Stra
 let straussDonJuan = Composition(id: 43, composer: "Richard Strauss", composerLast: "Strauss", name: "Don Juan", date: "1889", era: "Late Romantic", genre: "Tone Poem", excerpts: [
     Excerpt(id: 86, description: "Excerpt 1", measures: "4 mm. after [F] - 3 mm. before [G]", pictures: [["E Trumpet 1", "1186"], ["E Trumpet 2", "1187"], ["E Trumpet 3", "1188"]]),
     Excerpt(id: 87, description: "Excerpt 2", measures: "7 mm. after [H] - [K] ", pictures: [["E Trumpet 1", "1189"], ["E Trumpet 2", "1190"], ["E Trumpet 3", "1191"]])
-    // TODO: Don Juan Mutes
-], mutes: "", videos: [
+], mutes: "Straight", videos: [
     ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "XG4uBRBMdzY"],
     ["Georg Solti, Chicago Symphony Orchestra", "_um5yLJx-RM"],
     ["Herbert von Karajan, Osaka Philharmonic Orchestra", "F_V5KhUxWG8"],
@@ -580,8 +605,7 @@ let straussDonQuixote = Composition(id: 44, composer: "Richard Strauss", compose
     Excerpt(id: 88, description: "Excerpt 1", measures: "[3] - 4 mm. before [4]", pictures: [["D Trumpet 1", "1192"], ["D Trumpet 2", "1193"], ["D Trumpet 3", "1194"]]),
     Excerpt(id: 89, description: "Excerpt 2", measures: "3 mm. before [37] - [38] ", pictures: [["D Trumpet 1", "1195"], ["D Trumpet 2", "1196"], ["D Trumpet 3", "1197"]]),
     Excerpt(id: 90, description: "Excerpt 3", measures: "3 mm. before [67] - [69] ", pictures: [["D Trumpet 1", "1198"], ["D Trumpet 2", "1199"], ["D Trumpet 3", "1200"]])
-    // TODO: Don Quixote Mutes
-], mutes: "", videos: [
+], mutes: "Straight", videos: [
     ["Bernard Haitink, Symphonieorchester des Bayerischen Rundfunks", "_u5Zq769TJ4"],
     ["Dennis Russell Davies, Orquesta Sinfónica de Galicia", "Bo7KAGhrrIs"],
     ["Herbert von Karajan, Berliner Philharmoniker", "_6P1WHXKAlk"],
@@ -611,8 +635,7 @@ let straussAlpineSymphony = Composition(id: 46, composer: "Richard Strauss", com
     Excerpt(id: 97, description: "Excerpt 1", measures: "5 mm. before [68] - [71]", pictures: [["B♭ Trumpet 1", "1222"], ["B♭ Trumpet 2", "1223"], ["C Trumpet 3", "1224"], ["C Trumpet 4", "1225"]]),
     Excerpt(id: 98, description: "Excerpt 2", measures: "[75] - [76]", pictures: [["B♭ Trumpet 1", "1226"]]),
     Excerpt(id: 99, description: "Excerpt 3", measures: "[113a] - 3 mm. before [114]", pictures: [["B♭ Trumpet 1", "1227"], ["B♭ Trumpet 2", "1228"], ["C Trumpet 3", "1229"], ["C Trumpet 4", "1230"]])
-    // TODO: Alpine Symphony Mutes
-], mutes: "", videos: [
+], mutes: "Straight", videos: [
     ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "zsTo7QxxgYg"],
     ["Bernard Haitink, Vienna Philharmonic Orchestra", "FQhpWsRhQGs"],
     ["Daniel Barenboim, Chicago Symphony Orchestra", "HGaa-2AIAhs"],
@@ -628,8 +651,7 @@ let straussBourgeois = Composition(id: 47, composer: "Richard Strauss", composer
     Excerpt(id: 101, description: "Excerpt 2", measures: "No. 7, [6] - End", pictures: [["B♭ Trumpet", "1232"]]),
     Excerpt(id: 102, description: "Excerpt 3", measures: "No. 9, [104] - 4 mm. after [106]", pictures: [["B♭ Trumpet", "1233"]]),
     Excerpt(id: 103, description: "Excerpt 4", measures: "No. 9, 4 mm. before [111] - [115]", pictures: [["B♭ Trumpet", "1234"]])
-    // TODO: Bourgeois Mutes
-], mutes: "", videos: [
+], mutes: "Straight", videos: [
     ["Gerard Schwarz, New York Chamber Chorus and Symphony Orchestra", "ZNmhpzmQazk"],
     ["JoAnn Falletta, Norrlandsoperans Symfoniorkester", "7YG5vvsW1u0"],
     ["Klaus Tennstedt, London Philharmonic Orchestra", "_0BIEdy9WNU"],
@@ -640,9 +662,8 @@ let straussBourgeois = Composition(id: 47, composer: "Richard Strauss", composer
 let straussSymphoniaDomestica = Composition(id: 48, composer: "Richard Strauss", composerLast: "Strauss", name: "Sinfonia Domestica", date: "1903", era: "Late Romantic", genre: "Symphonic Poem", excerpts: [
     Excerpt(id: 104, description: "Excerpt 1", measures: "1 mm. before [2] - [2] ", pictures: [["F Trumpet 1", "1235"]]),
     Excerpt(id: 105, description: "Excerpt 2", measures: "[89] - [90]", pictures: [["C Trumpet 3", "1236"]])
-    // TODO: Symphonia Domestica Mutes
-], mutes: "", videos: [
-    // TODO: Symphonia DOmestica YouTube
+], mutes: "Straight", videos: [
+    // TODO: Symphonia Domestica YouTube
     ["", ""]
 ])
 
@@ -651,8 +672,7 @@ let straussEulenspiegel = Composition(id: 49, composer: "Richard Strauss", compo
     Excerpt(id: 107, description: "Excerpt 2", measures: "2 mm. after [24] - 3 mm. before [26]", pictures: [["F Trumpet 1", "1239"], ["F Trumpet 2", "1240"]]),
     Excerpt(id: 108, description: "Excerpt 3", measures: "9 mm. after [27] - 7 mm. after [28]", pictures: [["C Trumpet 3", "1241"]]),
     Excerpt(id: 109, description: "Excerpt 4", measures: "[36] - 4 mm. before [38] ", pictures: [["F Trumpet 1", "1242"], ["F Trumpet 2", "1243"], ["F Trumpet 3", "1244"]])
-    // TODO: Eulenspiegel Mutes
-], mutes: "", videos: [
+], mutes: "Straight", videos: [
     ["Christoph von Dohnányi, NDR Elbphilharmonie Orchester", "EMcQQFWAnA0"],
     ["Georg Solti, Wiener Philharmoniker", "ZpA47nVfgBY"],
     ["Herbert von Karajan, Berliner Philharmoniker", "99qWgSItaNQ"],
@@ -665,8 +685,7 @@ let straussEulenspiegel = Composition(id: 49, composer: "Richard Strauss", compo
 
 let stravinskySoldier = Composition(id: 50, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "L'histoire du soldat", date: "1918", era: "Modern", genre: "Theatrical Work", excerpts: [
     Excerpt(id: 110, description: "Excerpt 1", measures: "The Royal March, Beginning - 2 mm. after [3]", pictures: [["B♭ Cornet", "1245"]])
-    // TODO: Soldier's Tale Mutes
-], mutes: "", videos: [
+], mutes: "Straight", videos: [
     ["Butler Dance, Music and Theatre", "qh7sBAUd3hI"],
     ["Leo Geyer, Constella Ballet & Orchestra", "RewFQpEY55w"],
     ["Leo Geyer, Constella Ballet & Orchestra (With Score)", "JgSGTO36zUs"],
@@ -678,8 +697,7 @@ let stravinskySoldier = Composition(id: 50, composer: "Igor Stravinsky", compose
 
 let stravinskyFireworks = Composition(id: 51, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "Feu d'artifice", date: "1908", era: "Modern", genre: "Orchestral Fantasy", excerpts: [
     Excerpt(id: 111, description: "Excerpt 1", measures: "[1] - [9]", pictures: [["A Trumpet 1", "1246"], ["A Trumpet 2", "1247"], ["A Trumpet 3", "1248"]])
-    // TODO: Fireworks Mutes
-], mutes: "", videos: [
+], mutes: "Straight", videos: [
     // TODO: Fireworks YouTube
     ["", ""]
 ])
@@ -689,16 +707,14 @@ let stravinskyPetrushka = Composition(id: 52, composer: "Igor Stravinsky", compo
     Excerpt(id: 113, description: "Excerpt 2", measures: "Waltz, 4 mm. after [71] - 1 mm. before [72]", pictures: [["B♭ Cornet 1", "1250"]]),
     Excerpt(id: 114, description: "Excerpt 3", measures: "Waltz, [75] - [76] ", pictures: [["B♭ Cornet 1", "1251"]]),
     Excerpt(id: 115, description: "Excerpt 4", measures: "Apparition Of Petrushka’s Ghost:, [132]  - End", pictures: [["D Piccolo Trumpet 1", "1252"], ["B♭ Trumpet 2", "1253"]])
-    // TODO: Petrushka Mutes
-], mutes: "", videos: [
+], mutes: "Straight", videos: [
     // TODO: Petrushka YouTube
     ["", ""]
 ])
 
 let stravinskyRite = Composition(id: 53, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "The Rite of Spring", date: "1913", era: "Modern", genre: "Ballet", excerpts: [
     Excerpt(id: 116, description: "Excerpt 1", measures: "1 mm. before [11] - [12] ", pictures: [["D Piccolo Trumpet 1", "1254"]])
-    // TODO: Rite of Spring Mutes
-], mutes: "", videos: [
+], mutes: "Straight", videos: [
     ["Claudio Abbado, London Symphony Orchestra", "RRyd5zR_3Bc"],
     ["Gianluigi Gelmetti, Radio-Sinfonieorchester Stuttgart des SWR", "U89DW5idH-g"],
     ["Jaap van Zweden, Radio Filharmonisch Orkest", "5UJOaGIhG7A"],
@@ -717,8 +733,7 @@ let stravinskyNightengale = Composition(id: 54, composer: "Igor Stravinsky", com
     Excerpt(id: 119, description: "Excerpt 3", measures: "[68] - [71]", pictures: [["C Trumpet 1 and 2", "1257"]]),
     Excerpt(id: 120, description: "Excerpt 4", measures: "[76] - [77]", pictures: [["C Trumpet 1 and 2", "1258"]]),
     Excerpt(id: 121, description: "Excerpt 5", measures: "[96] - End", pictures: [["C Trumpet 1 and 2", "1259"]])
-    // TODO: Nightengale Mutes
-], mutes: "", videos: [
+], mutes: "Straight", videos: [
     ["Ernest Ansermet, L'Orchestre de la Suisse Romande", "3bO0bQPfBTQ"],
     ["Gerard Schwarz, Seattle Symphony Orchestra (With Score)", "NDvttESHowE"],
     ["Juraj Valčuha, Frankfurt Radio Symphony", "zTYqJGvEBsg"],
@@ -729,16 +744,14 @@ let stravinskyNightengale = Composition(id: 54, composer: "Igor Stravinsky", com
 
 let tchaikovskyCapriccio = Composition(id: 55, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Italian Capriccio", date: "1880", era: "Romantic", genre: "Capriccio", excerpts: [
     Excerpt(id: 122, description: "Excerpt 1", measures: "8 mm. before [D] - [D] ", pictures: [["A Cornet 1", "1260"]])
-    // TODO: Cappriccio Italien Mutes
-], mutes: "", videos: [
+], mutes: "No", videos: [
     // TODO: Cappriccio Italien YouTube
     ["", ""]
 ])
 
 let tchaikovskySwanLake = Composition(id: 56, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Swan Lake", date: "1877", era: "Romantic", genre: "Ballet", excerpts: [
     Excerpt(id: 123, description: "Excerpt 1", measures: "No. 22, Andante quasi moderato", pictures: [["A Cornet 1", "1261"]])
-    // TODO: Swan Lake Mutes
-], mutes: "", videos: [
+], mutes: "No", videos: [
     ["Ormsby Wilkins, Kennedy Center Opera House Orchstra", "gfmc6ZVl7uA"],
     ["David Lloyd-Jones, The New London Orchestra", "rQsECoq9XGM"],
     ["Ernest Ansermet, Orchestre de la Suisse Romande", "ILfgvsH0m9E"],
@@ -748,8 +761,7 @@ let tchaikovskySwanLake = Composition(id: 56, composer: "Pyotr Ilyich Tchaikovsk
 
 let tchaikovsky4 = Composition(id: 57, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Symphony No. 4", date: "1878", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 124, description: "Excerpt 1", measures: "Beginning - [A]", pictures: [["F Trumpet 1", "1262"], ["F Trumpet 2", "1263"]])
-    // TODO: Tchaik 4 Mutes
-], mutes: "", videos: [
+], mutes: "No", videos: [
     ["Carlos Miguel Prieto, Frankfurt Radio Symphony", "Y7G5ithbFys"],
     ["Christian Lindberg, The Arctic Philharmonic Orchestra", "ieYFdj1wI_M"],
     ["Claudio Abbado, Chicago Symphony Orchestra", "XxvTGgoStcY"],
@@ -760,8 +772,7 @@ let tchaikovsky4 = Composition(id: 57, composer: "Pyotr Ilyich Tchaikovsky", com
 
 let tchaikovsky5 = Composition(id: 58, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Symphony No. 5", date: "1888", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 125, description: "Excerpt 1", measures: "[Aa] - 6 mm. after [Bb]", pictures: [["A Trumpet 1", "1264"], ["A Trumpet 2", "1265"]])
-    // TODO: Tchaik 5 Mutes
-], mutes: "", videos: [
+], mutes: "No", videos: [
     ["Elim Chan, Netherlands Philharmonic Orchestra", "xFf5GA2UpMs"],
     ["Emmanuel Krivine, Orchestre National de France", "Z1hFlRVB7DI"],
     ["Herbert von Karajan, Berliner Philharmoniker", "NeNeQrUXymg"],
@@ -774,8 +785,7 @@ let tchaikovsky5 = Composition(id: 58, composer: "Pyotr Ilyich Tchaikovsky", com
 
 let tchaikovskyNutcracker = Composition(id: 59, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "The Nutcracker", date: "1892", era: "Romantic", genre: "Ballet", excerpts: [
     Excerpt(id: 126, description: "Excerpt 1", measures: "No. 12 (Divertissement), mm. 5 - 20", pictures: [["B♭ Trumpet 1", "1266"]])
-    // TODO: Nutcraker Mutes
-], mutes: "", videos: [
+], mutes: "Straight", videos: [
     // TODO: Nutcracker YouTube
     ["", ""]
 ])
@@ -783,8 +793,7 @@ let tchaikovskyNutcracker = Composition(id: 59, composer: "Pyotr Ilyich Tchaikov
 let wagnerGotterdamerung = Composition(id: 60, composer: "Richard Wagner", composerLast: "Wagner", name: "Götterdämmerung", date: "1874", era: "Late Romantic", genre: "Opera", excerpts: [
     Excerpt(id: 127, description: "Excerpt 1", measures: "Act III Scene II, [38] - [39]", pictures: [["E Trumpet 1 and 2", "1267"], ["E Trumpet 3", "1268"]]),
     Excerpt(id: 128, description: "Excerpt 2", measures: "Act III Scene II, 4 mm. before [42] - [44]", pictures: [["C Trumpet 1 and 2", "1269"], ["C Trumpet 3", "1270"], ["C Bass Trumpet", "1271"]])
-    // TODO: Gotterdamerung Mutes
-], mutes: "", videos: [
+], mutes: "Straight (Tpt 3 only)", videos: [
     ["Adam Fischer, Vienna State Opera", "kLly5R4gDiM"],
     ["Georg Solti, Vienna Philharmonic Orchestra (With Score)", "BQHtYVjCCF0"],
     ["Joseph Keilberth, Bayreuth Festival Orchestra", "KtQ40fqs6Kc"],
@@ -797,8 +806,7 @@ let wagnerGotterdamerung = Composition(id: 60, composer: "Richard Wagner", compo
 let wagnerMeistersinger = Composition(id: 61, composer: "Richard Wagner", composerLast: "Wagner", name: "Die Meistersinger von Nürnberg", date: "1867", era: "Late Romantic", genre: "Opera", excerpts: [
     Excerpt(id: 129, description: "Excerpt 1", measures: "Prelude to Act I, mm. 66 - 74", pictures: [["F Trumpet 1", "1272"], ["F Trumpet 2", "1273"]]),
     Excerpt(id: 130, description: "Excerpt 2", measures: "Prelude to Act I, mm. 211 - 222", pictures: [["F Trumpet 1", "1274"], ["F Trumpet 2", "1275"], ["C Trumpet 3", "1276"]])
-    // TODO: Meistersinger Mutes
-], mutes: "", videos: [
+], mutes: "Straight (Tpt 1 only)", videos: [
     ["Christian Thielemann, Philadelphia Orchestra", "uz-9IkVKEU4"],
     ["Christian Thielemann, Münchner Philharmoniker", "ZVO5s9zAqAQ"],
     ["Christian Thielemann, Vienna Philharmonic Orchestra", "uyypHlrZsgg"],
@@ -812,24 +820,21 @@ let wagnerMeistersinger = Composition(id: 61, composer: "Richard Wagner", compos
 
 let wagnerParsifal = Composition(id: 62, composer: "Richard Wagner", composerLast: "Wagner", name: "Parsifal", date: "1882", era: "Late Romantic", genre: "Opera", excerpts: [
     Excerpt(id: 131, description: "Excerpt 1", measures: "Prelude to Act I, 8 mm. after [1] - 5 mm. before [3]", pictures: [["F Trumpet 1", "1277"], ["F Trumpet 3", "1278"]])
-    // TODO: Parsifal Mutes
-], mutes: "", videos: [
+], mutes: "No", videos: [
     // TODO: Parsifal YouTube
     ["", ""]
 ])
 
 let wagnerRienzi = Composition(id: 63, composer: "Richard Wagner", composerLast: "Wagner", name: "Rienzi", date: "1840", era: "Romantic", genre: "Opera", excerpts: [
     Excerpt(id: 132, description: "Excerpt 1", measures: "Overture, mm. 1 - 12", pictures: [["F Trumpet 1", "1279"]])
-    // TODO: Rienzi Mutes
-], mutes: "", videos: [
+], mutes: "No", videos: [
     // TODO: Rienzi YouTube
     ["", ""]
 ])
 
 let wagnerTannhauser = Composition(id: 64, composer: "Richard Wagner", composerLast: "Wagner", name: "Tannhäuser", date: "1845", era: "Romantic", genre: "Opera", excerpts: [
     Excerpt(id: 133, description: "Excerpt 1", measures: "Overture, 1 mm. before [M] - End", pictures: [["A Trumpet 1", "1280"], ["A Trumpet 2", "1281"], ["A Trumpet 3", "1282"]])
-    // TODO: Tannhauser Mutes
-], mutes: "", videos: [
+], mutes: "No (Overture)", videos: [
     ["Christian Thielemann, Münchner Philharmoniker", "KTM7E4-DN0o"],
     ["Daniel Barenboim", "Ozp8CbktEwQ"],
     ["Klaus Tennstedt, Berliner Philharmoniker", "AWIjohOIYNc"],
