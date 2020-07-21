@@ -320,15 +320,26 @@ let debussyLaMer = Composition(id: 20, composer: "Claude Debussy", composerLast:
     Excerpt(id: 40, description: "Excerpt 2", measures: "Mov. 3, 5 mm. after [52] - 7 mm. after [52])", pictures: [["C Cornet 1", "1082"]]),
     Excerpt(id: 41, description: "Excerpt 3", measures: "Mov. 3, 8 mm. after [57] - [58]", pictures: [["F Trumpet 1 and 2", "1083"], ["F Trumpet 3", "1084"], ["C Cornet 1 and 2", "1085"]])
 ], mutes: "Straight", videos: [
-    // TODO: La Mer YouTube
-    ["", ""]
+    ["정명훈 (Chung Myung-Whun), Orchestre Philharmonique de Radio France", "ogYtW1Yb5s4"],
+    ["Herbert von Karajan, Philharmonia Orchestra", "RLAIJjWdJRQ"],
+    ["Leonard Bernstein, New York Philharmonic", "EtJ9FhwtthE"],
+    ["Paavo Järvi, Frankfurt Radio Symphony Orchestra", "k8NJRyfnYZ8"],
+    ["Pierre Boulez, The Cleveland Orchestra", "IoENgt1h4_A"],
+    ["Pierre Boulez, New York Philharmonic", "1mGqLaD_zaU"],
+    ["Valery Gergiev, London Symphony Orchestra", "hlR9rDJMEiQ"],
+    ["Vladimir Ashkenazy, Cleveland Orchestra", "FOCucJw7iT8"],
+    ["Vladimir Ashkenazy, Cleveland Orchestra (With Score)", "KUFpcPEcwTo"],
 ])
 
 let donizettiDonPasquale = Composition(id: 21, composer: "Gaetano Donizetti", composerLast: "Donizetti", name: "Don Pasquale", date: "1843", era: "Romantic", genre: "Opera", excerpts: [
     Excerpt(id: 42, description: "Excerpt 1", measures: "Prelude to Act II, mm. 5 - 3 mm. after [1]", pictures: [["B♭ Trumpet 1 and 2", "1086"]])
 ], mutes: "No", videos: [
-    // TODO: Don Pasquale YouTube
-    ["", ""]
+    ["Damiano Binetti, Rzesow Philharmonia", "OoIiucpWzGk"],
+    ["Evelino Pido, Orchestra de la Suisse Romande", "RS4TIsqr5lU"],
+    ["Gérard Korsten, Teatro Lirico di Cagliari", "p7DDvMcDxDM"],
+    ["Massimo Pradella, Orchestra sinfonica e coro di Milano della RAI", "9ppmuOIKFPw"],
+    ["Nello Santi, Orchestra of the Zürich Opera", "_RZ-pOOgbL4"],
+    ["Ricardo Muti, Teatro alla Scala", "gg9TsDjE0RM"],
 ])
 
 let dvorak8 = Composition(id: 22, composer: "Antonín Dvořák", composerLast: "Dvořák", name: "Symphony No. 8", date: "1889", era: "Romantic", genre: "Symphony", excerpts: [
@@ -360,22 +371,39 @@ let dvorak9 = Composition(id: 23, composer: "Antonín Dvořák", composerLast: "
 let handelMessiah = Composition(id: 24, composer: "George Frideric Handel", composerLast: "Handel", name: "Messiah", date: "1741", era: "Baroque", genre: "Oratorio", excerpts: [
     Excerpt(id: 48, description: "Excerpt 1", measures: "No. 46, Air", pictures: [["C Trumpet 1", "1097"]])
 ], mutes: "No", videos: [
-    // TODO: Messiah YouTube
-    ["", ""]
+    ["Barnaby Smith, Academy of Ancient Music", "lFjQ77ol2DI"],
+    ["Brett Weymark, Sydney Philharmonia Orchestra", "bR0cEOTpYSk"],
+    ["Christopher Hogwood, Academy of Ancient Music", "fdlyoEpCV9k"],
+    ["London Philharmonic Orchestra", "71NCzuDNUcg"],
+    ["Mack Wilberg, Orchestra at Temple Square", "7hhcURZVx5k"],
+    ["Sir Colin Davis, London Symphony Orchestra", "ZuGSOkYWfDQ"],
+    ["Stephen Cleobury, The Brandenburg Consort", "48NffKWvaQI"],
+    ["Vaclav Lucs, Collegium 1704", "JH3T6YwwU9s"],
 ])
 
 let haydn100 = Composition(id: 25, composer: "Franz Joseph Haydn", composerLast: "Haydn", name: "Symphony No. 100", date: "1794", era: "Classical", genre: "Symphony", excerpts: [
     Excerpt(id: 49, description: "Excerpt 1", measures: "Mov. II, mm. 152 - 159", pictures: [["C Trumpet 2", "1098"]])
 ], mutes: "No", videos: [
-    // TODO: Haydn 100 YouTube
-    ["", ""]
+    ["Frans Brüggen, The Orchestra of the 18th Century", "ZMEBZwoBAFo"],
+    ["Konrad Junghänel, Schwetzinger Orchesterakademie", "_pBhd3t0WhU"],
+    ["Manfred Honeck, Israel Philharmonic Orchestra", "QSeFoFdURWk"],
+    ["Mariss Jansons, Royal Concertgebouw Orchestra", "3pPDFAoj_Tw"],
+    ["Otto Klemperer, New Philharmonia Orchestra", "OkhuqdGRjV4"],
+    ["Sir Charles Mackerras, Orchestra of St. Luke's", "st93y6TwpZo"],
+    ["The Young Artist Orchestra", "KOFpHyKQoiI"],
 ])
 
 let mahlerDasLied = Composition(id: 26, composer: "Gustav Mahler", composerLast: "Mahler", name: "Das Lied von der Erde", date: "1909", era: "Romantic", genre: "Symphonic Piece", excerpts: [
     Excerpt(id: 50, description: "Excerpt 1", measures: "Mov. I, 5 mm. before [29] - 3 mm. before [30]", pictures: [["F Trumpet 1", "1099"]])
 ], mutes: "Straight", videos: [
-    // TODO: Mahler Das Lied YouTube
-    ["", ""]
+    ["Bruno Walter, Wiener Philharmoniker", "iqCMTQ3uaPI"],
+    ["Daniel Barenboim, Chicago Symphony Orchestra", "kQZ51udFtrg"],
+    ["Edward Gardner, BBC Symphony Orchestra", "nItKF7byVGU"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "SQk5ZiWXg0Y"],
+    ["Leonard Bernstein, Israel Philharmonic Orchestra", "idRevTkIPts"],
+    ["Leonard Bernstein, Vienna Philharmonic (With Score)", "lFxvsTJYWuA"],
+    ["Peter Oundjian, Toronto Symphony Orchestra", "R81yPON9IHI"],
+    ["Semyon Bychkov, WDR Sinfonieorchester Köln", "_Z4nnIJ0A7E"],
 ])
 
 let mahler1 = Composition(id: 27, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 1", date: "1888", era: "Romantic", genre: "Symphony", excerpts: [
@@ -494,8 +522,12 @@ let mahler9 = Composition(id: 34, composer: "Gustav Mahler", composerLast: "Mahl
 let mozartSerenade9 = Composition(id: 35, composer: "Wolfgang Amadeus Mozart", composerLast: "Mozart", name: "Serenade in D major", date: "1779", era: "Classical", genre: "Serenade", excerpts: [
     Excerpt(id: 69, description: "Excerpt 1", measures: "Mov. VI, Trio II - D", pictures: [["A Posthorn", "1150"]])
 ], mutes: "No", videos: [
-    // TODO: Serenade 9 YouTube
-    ["", ""]
+    ["George Szell, Cleveland Orchestra", "wKaorSRBQjc"],
+    ["János Rolla, Franz Liszt Chamber Orchestra", "SInfY72W2L0"],
+    ["Peter Maag, Orchestre De La Suisse Romande (With Score)", "bRDjNlrNWiI"],
+    ["Pietro Mianiti", "gUQy2PtNiek"],
+    ["Sir Charles Mackerras, Prague Chamber Orchestra", "MS5YCVdPxCk"],
+    ["Sir Colin Davis, Symphonieorchester des Bayerischen Rundfunks", "boxLwK9PDfM"],
 ])
 
 let rimskykorsakovCappricio = Composition(id: 36, composer: "Nikolay Rimsky-Korsakov", composerLast: "Rimsky-Korsakov", name: "Capriccio espagnol", date: "1887", era: "Romantic", genre: "Capriccio", excerpts: [
@@ -540,8 +572,14 @@ let schumann2 = Composition(id: 38, composer: "Robert Schumann", composerLast: "
 let scriabin4 = Composition(id: 39, composer: "Aleksandr Scriabin", composerLast: "Scriabin", name: "Symphony No. 4", date: "1908", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 78, description: "Excerpt 1", measures: "mm. 13 - 8 mm. before [1]", pictures: [["B♭ Trumpet 1", "1165"]])
 ], mutes: "Straight", videos: [
-    // TODO: Scriabin 4 YouTube
-    ["", ""]
+    ["Esa-Pekka Salonen, Philharmonia Orchestra", "HAnVrdQ3qFk"],
+    ["Giuseppe Sinopoli, New York Philharmonic Orchestra", "Ce9LAbu35os"],
+    ["Leopold Stokowski, Houston Symphony Orchestra", "qh84kTArJHk"],
+    ["Pierre Boulez, Chicago Symphony Orchestra", "ujvOP0dDExU"],
+    ["Valery Gergiev, Kirov Orchestra", "9JX0sQyJFwQ"],
+    ["Vladimir Ashkenazy, Berlin Radio Symphony Orchestra (With Score)", "tOjQ4j9bLvg"],
+    ["Vladimir Ashkenazy, Berlin Radio Symphony Orchestra (With Score)", "j1dSgQ8LV4o"],
+
 ])
 
 let sibelius2 = Composition(id: 40, composer: "Jean Sibelius", composerLast: "Sibelius", name: "Symphony No. 2", date: "1902", era: "Romantic", genre: "Symphony", excerpts: [
@@ -663,8 +701,12 @@ let straussSymphoniaDomestica = Composition(id: 48, composer: "Richard Strauss",
     Excerpt(id: 104, description: "Excerpt 1", measures: "1 mm. before [2] - [2] ", pictures: [["F Trumpet 1", "1235"]]),
     Excerpt(id: 105, description: "Excerpt 2", measures: "[89] - [90]", pictures: [["C Trumpet 3", "1236"]])
 ], mutes: "Straight", videos: [
-    // TODO: Symphonia Domestica YouTube
-    ["", ""]
+    ["George Szell, Cleveland Orchestra", "kmDdqZUYjCw"],
+    ["George Szell, Cleveland Orchestra (With Score)", "ETQWcUkLGRE"],
+    ["Fritz Reiner, Chicago Symphony Orchestra", "vsWQuTnknQY"],
+    ["Lorin Maazel, Royal Concertgebouw Orchestra", "8sjBKiWQWNk"],
+    ["Marlan Carlson, Corvallis-OSU Symphony", "rghaBnAbMpQ"],
+    ["Neeme Järvi, Scottish National Orchestra", "zvymcR85HPY"],
 ])
 
 let straussEulenspiegel = Composition(id: 49, composer: "Richard Strauss", composerLast: "Strauss", name: "Till Eulenspiegels lustige Streiche", date: "1895", era: "Late Romantic", genre: "Tone Poem", excerpts: [
