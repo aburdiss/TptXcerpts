@@ -6,6 +6,7 @@
 //  Copyright © 2020 Alex Burdiss. All rights reserved.
 //
 
+// TODO: Add Trumpet Excerpt YouTube Vidoes
 // TODO: Add more excerpts that aren't just on Lexcerpts
 // TODO: Test YouTube Videos
 // TODO: Make sure the lists are in alphabetical order.
@@ -740,8 +741,16 @@ let stravinskySoldier = Composition(id: 50, composer: "Igor Stravinsky", compose
 let stravinskyFireworks = Composition(id: 51, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "Feu d'artifice", date: "1908", era: "Modern", genre: "Orchestral Fantasy", excerpts: [
     Excerpt(id: 111, description: "Excerpt 1", measures: "[1] - [9]", pictures: [["A Trumpet 1", "1246"], ["A Trumpet 2", "1247"], ["A Trumpet 3", "1248"]])
 ], mutes: "Straight", videos: [
-    // TODO: Fireworks YouTube
-    ["", ""]
+    ["Igor Stravinsky, Columbia Orchestra (With Score)", "SWOAu_T5DuI"],
+    ["Igor Stravinsky, Japan (Excerpts)", "56z6B2x4deE"],
+    ["Igor Stravinsky, New York Philharmonic", "lmm1KdlkqQE"],
+    ["Pierre Boulez, Chicago Symphony Orchestra", "Kf4Uk4C_ylI"],
+    ["Pierre Boulez, Orchestre de Paris", "C6KvUon3x1g"],
+    ["Seiji Ozawa, Chicago Symphony Orchestra", "1OFELHWItbs"],
+    ["Valery Gergiev, Rotterdam Phiilharmonics", "hJUcBFL2nRU"],
+    ["Vitalii Protasov, Symphony Orchestra of the National Philharmonic of Ukraine", "wTrSeyaUuHM"],
+    // Bands
+    ["Lt. Col. Jason K. Fettig, \"The President's Own\" U.S. Marine Band", "Z2nYeISH2ts"]
 ])
 
 let stravinskyPetrushka = Composition(id: 52, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "Petrushka", date: "1911", era: "Modern", genre: "Ballet", excerpts: [
@@ -750,8 +759,13 @@ let stravinskyPetrushka = Composition(id: 52, composer: "Igor Stravinsky", compo
     Excerpt(id: 114, description: "Excerpt 3", measures: "Waltz, [75] - [76] ", pictures: [["B♭ Cornet 1", "1251"]]),
     Excerpt(id: 115, description: "Excerpt 4", measures: "Apparition Of Petrushka’s Ghost:, [132]  - End", pictures: [["D Piccolo Trumpet 1", "1252"], ["B♭ Trumpet 2", "1253"]])
 ], mutes: "Straight", videos: [
-    // TODO: Petrushka YouTube
-    ["", ""]
+    ["Andris Nelsons, Royal Concertgebouw Orchestra", "esD90diWZds"],
+    ["Ballets russes - Opéra de Paris", "NBaKgjmGxbU"],
+    ["Charles Dutoit, Orchestre symphonique de Montréal", "p-qE01e6M1g"],
+    ["Esa-Pekka Salonen, The Philharmonia", "cv-BOJLQMlc"],
+    ["Pierre Boulez, Cleveland Orchestra (With Score)", "jeSC0vtdn3g"],
+    ["Riccardo Muti, Philadelphia Orchestra", "8OW4jaI9o6Q"],
+    ["Valery Gergiev, London Symphony Orchestra", "hX7aSsic7eM"],
 ])
 
 let stravinskyRite = Composition(id: 53, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "The Rite of Spring", date: "1913", era: "Modern", genre: "Ballet", excerpts: [
@@ -787,17 +801,24 @@ let stravinskyNightengale = Composition(id: 54, composer: "Igor Stravinsky", com
 let tchaikovskyCapriccio = Composition(id: 55, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Italian Capriccio", date: "1880", era: "Romantic", genre: "Capriccio", excerpts: [
     Excerpt(id: 122, description: "Excerpt 1", measures: "8 mm. before [D] - [D] ", pictures: [["A Cornet 1", "1260"]])
 ], mutes: "No", videos: [
-    // TODO: Cappriccio Italien YouTube
-    ["", ""]
+    ["Alexander Dmitriev, Academic Symphony Orchestra of Saint-Petersburg Philarmonia (With Score)", "jpvvEnJwI-s"],
+    ["Antony Hermus, Radio Filharmonisch Orkest", "dyy0p90GO2w"],
+    ["Daniel Barenboim, Chicago Symphony Orchestra", "L5TjETesZEg"],
+    ["Herbert von Karajan, Berlin Philharmonic", "eaU--vM_Ioo"],
+    ["Igor Manasherov, Moscow Philharmonic Orchestra", "ucTcvj6iB6g"],
+    ["Jesús López Cobos, Sinfónica de Galicia", "B8jTRivcSfs"],
+    ["Michail Jurowski, Moscow City Symphony", "Ce5qmAj9XX4"],
+    ["Peter Wohlert, Berlin Symphony Orchestra", "01SEOm9oS-k"],
+    ["Vasily Petrenko, Orchestra dell'Accademia Nazionale di Santa Cecilia", "mot51Hc5uEY"],
 ])
 
 let tchaikovskySwanLake = Composition(id: 56, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Swan Lake", date: "1877", era: "Romantic", genre: "Ballet", excerpts: [
     Excerpt(id: 123, description: "Excerpt 1", measures: "No. 22, Andante quasi moderato", pictures: [["A Cornet 1", "1261"]])
 ], mutes: "No", videos: [
-    ["Ormsby Wilkins, Kennedy Center Opera House Orchstra", "gfmc6ZVl7uA"],
     ["David Lloyd-Jones, The New London Orchestra", "rQsECoq9XGM"],
     ["Ernest Ansermet, Orchestre de la Suisse Romande", "ILfgvsH0m9E"],
     ["Herbert von Karajan, Berlin Philharmonic", "yJdh84BEiQg"],
+    ["Ormsby Wilkins, Kennedy Center Opera House Orchstra", "gfmc6ZVl7uA"],
     ["Viktor Fedotov, Kirov Theatre Orchestra", "9rJoB7y6Ncs"]
 ])
 
@@ -828,8 +849,12 @@ let tchaikovsky5 = Composition(id: 58, composer: "Pyotr Ilyich Tchaikovsky", com
 let tchaikovskyNutcracker = Composition(id: 59, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "The Nutcracker", date: "1892", era: "Romantic", genre: "Ballet", excerpts: [
     Excerpt(id: 126, description: "Excerpt 1", measures: "No. 12 (Divertissement), mm. 5 - 20", pictures: [["B♭ Trumpet 1", "1266"]])
 ], mutes: "Straight", videos: [
-    // TODO: Nutcracker YouTube
-    ["", ""]
+    ["Bolshoi Ballet Bolshoi Orchestra", "n0lx2Z1wg_c"],
+    ["Detroit Youth Symphony Orchestra", "0NgjhQyhtRE"],
+    ["Moscow Ballet", "iVMLyLrFcVg"],
+    ["New York City Ballet 1993", "_Ofysvpgv7o"],
+    ["New York City Ballet 2011", "WO2SxXcffyI"],
+    ["Yannick Nezet-Seguin, Rotterdams Philharmonisch Orkest (With Score)", "E-XUpVjzehc"],
 ])
 
 let wagnerGotterdamerung = Composition(id: 60, composer: "Richard Wagner", composerLast: "Wagner", name: "Götterdämmerung", date: "1874", era: "Late Romantic", genre: "Opera", excerpts: [
@@ -863,15 +888,26 @@ let wagnerMeistersinger = Composition(id: 61, composer: "Richard Wagner", compos
 let wagnerParsifal = Composition(id: 62, composer: "Richard Wagner", composerLast: "Wagner", name: "Parsifal", date: "1882", era: "Late Romantic", genre: "Opera", excerpts: [
     Excerpt(id: 131, description: "Excerpt 1", measures: "Prelude to Act I, 8 mm. after [1] - 5 mm. before [3]", pictures: [["F Trumpet 1", "1277"], ["F Trumpet 3", "1278"]])
 ], mutes: "No", videos: [
-    // TODO: Parsifal YouTube
-    ["", ""]
+    ["Hans Knappertsbusch, Bayreuth Festival Orchestra", "vaANPNrAtpA"],
+    ["Hans Knappertsbusch, Bayreuth Festival Orchestra (With Score)", "RfNWxq7wuZk"],
+    ["Herbert Kegel, Rundfunk-Sinfonie-Orchester Leipzig", "JsqPWZNEQvY"],
+    ["Horst Stein, Bayreuth Festival Orchestra", "eqOBEH-JRhs"],
+    ["James Levine, The Metropolitan Opera", "HhCMzZEHlEc"],
+    ["Philippe Jordan, Bayreuth Festival Orchestra", "bTaQu7ivsRM"],
+    ["Sir Georg Solti, Wiener Philharmoniker", "UeD7paD3K3o"],
 ])
 
 let wagnerRienzi = Composition(id: 63, composer: "Richard Wagner", composerLast: "Wagner", name: "Rienzi", date: "1840", era: "Romantic", genre: "Opera", excerpts: [
     Excerpt(id: 132, description: "Excerpt 1", measures: "Overture, mm. 1 - 12", pictures: [["F Trumpet 1", "1279"]])
 ], mutes: "No", videos: [
-    // TODO: Rienzi YouTube
-    ["", ""]
+    ["Giuseppe Sinopoli, Sächsische Staatskapelle Dresden", "qPdmb7TvHBk"],
+    ["Karl Böhm, Wiener Philharmoniker", "QtGfwdIb11Y"],
+    ["Klaus Tennstedt, London Philharmonic", "M2JjnB45D34"],
+    ["Nicolás Pasquet, The Orchestra of the University of Music FRANZ LISZT Weimar", "URIwWtwn6qA"],
+    ["Sir Georg Solti, Wiener Philharmoniker", "kJSLxJ2wA_Y"],
+    ["Yuri Simonov, Philharmonia Orchestra", "zFQ2MJ6b8Xs"],
+    // Bands
+    ["Lt. Col. Jason K. Fettig, \"The President's Own\" U.S. Marine Band", "ykzXTLSax4E"]
 ])
 
 let wagnerTannhauser = Composition(id: 64, composer: "Richard Wagner", composerLast: "Wagner", name: "Tannhäuser", date: "1845", era: "Romantic", genre: "Opera", excerpts: [
