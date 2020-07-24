@@ -50,7 +50,7 @@ struct Composer: Identifiable {
 
 //MARK: Compositions
 
-let bachBrandenburg2 = Composition(id: 0, composer: "Johann Sebastian Bach", composerLast: "Bach", name: "Brandenburg Concerto No. 3", date: "1721", era: "Baroque", genre: "Concerto", excerpts: [
+let bachBrandenburg2 = Composition(id: 0, composer: "Johann Sebastian Bach", composerLast: "Bach", name: "Brandenburg Concerto No. 2", date: "1721", era: "Baroque", genre: "Concerto", excerpts: [
     Excerpt(id: 0, description: "Excerpt 1", measures: "Mov. I, mm. 1 - 37", pictures: [["F Alto Trumpet", "1000"]]),
     Excerpt(id: 1, description: "Excerpt 2", measures: "Mov. III, mm. 1 - 27", pictures: [["F Alto Trumpet", "1001"]]),
     Excerpt(id: 2, description: "Excerpt 3", measures: "Mov. III, mm. 41 - 57", pictures: [["F Alto Trumpet", "1002"]])
@@ -1044,7 +1044,7 @@ let tchaikovsky = Composer(id: 20, name: "Pyotr Ilyich Tchaikovsky", ipa: "ˈpy�
 
 
 let wagner = Composer(id: 21, name: "Richard Wagner", ipa: "ˈʁɪçaʁt ˈvaːɡnɐ", image: 2021, country: "Germany", dates: "1813-1883", bio: "Wagner is one of the most well known composers of all time. His music frequently appears in television shows and movies. He was most well known in his era for his operas, which usually run about four hours. Wagner was unusual as an opera composer because he himself wrote the liberetto for the operas he composed. Wagner had his own opera house constructed, which still stands to this day.", excerpts: [
-    wagnerMeistersinger, wagnerGotterdamerung, wagnerParsifal, wagnerTannhauser
+    wagnerMeistersinger, wagnerGotterdamerung, wagnerParsifal, wagnerRienzi, wagnerTannhauser
 ])
 
 
@@ -1056,7 +1056,7 @@ class TrumpetContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        bachBrandenburg2, bachCantata, bachMagnificant, bachMassB, bachChristmasOratorio, beethovenLeonore2, beethovenLeonore3, beethoven5, beethoven9, beethovenViolin, berliozRomanCarnival, berliozSymphonie, bizetCarmen, brahmsAcademic, brahms1, brahms2, bruckner4, bruckner7, bruckner8, debussyLaMer, debussyNocturnes, donizettiDonPasquale, dvorak8, dvorak9, handelMessiah, haydn100, mahlerDasLied, mahler1, mahler2, mahler3, mahler4, mahler5, mahler6, mahler7, mahler9, mozartSerenade9, rimskykorsakovCappricio, rimskyKorsakovScheherazade, schumann2, scriabin4, sibelius2, straussAlsoSprach, straussDonJuan, straussDonQuixote, straussHeldenleben, straussAlpineSymphony, straussBourgeois, straussSymphoniaDomestica, straussEulenspiegel, straussDeathAndTransfiguration, stravinskyFireworks, stravinskySoldier, stravinskyNightengale, stravinskyPetrushka, stravinskyRite, tchaikovskyCapriccio, tchaikovskySwanLake, tchaikovsky4, tchaikovsky5, tchaikovskyNutcracker, wagnerMeistersinger, wagnerGotterdamerung, wagnerParsifal, wagnerTannhauser
+        bachBrandenburg2, bachCantata, bachMagnificant, bachMassB, bachChristmasOratorio, beethovenLeonore2, beethovenLeonore3, beethoven5, beethoven9, beethovenViolin, berliozRomanCarnival, berliozSymphonie, bizetCarmen, brahmsAcademic, brahms1, brahms2, bruckner4, bruckner7, bruckner8, debussyLaMer, debussyNocturnes, donizettiDonPasquale, dvorak8, dvorak9, handelMessiah, haydn100, mahlerDasLied, mahler1, mahler2, mahler3, mahler4, mahler5, mahler6, mahler7, mahler9, mozartSerenade9, rimskykorsakovCappricio, rimskyKorsakovScheherazade, schumann2, scriabin4, sibelius2, straussAlsoSprach, straussDonJuan, straussDonQuixote, straussHeldenleben, straussAlpineSymphony, straussBourgeois, straussSymphoniaDomestica, straussEulenspiegel, straussDeathAndTransfiguration, stravinskyFireworks, stravinskySoldier, stravinskyNightengale, stravinskyPetrushka, stravinskyRite, tchaikovskyCapriccio, tchaikovskySwanLake, tchaikovsky4, tchaikovsky5, tchaikovskyNutcracker, wagnerMeistersinger, wagnerGotterdamerung, wagnerParsifal, wagnerRienzi, wagnerTannhauser
     ]
     
     /**
