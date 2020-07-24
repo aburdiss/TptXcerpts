@@ -6,11 +6,6 @@
 //  Copyright © 2020 Alex Burdiss. All rights reserved.
 //
 
-// TODO: Add Trumpet Excerpt YouTube Vidoes
-// TODO: Add more excerpts that aren't just on Lexcerpts
-// TODO: Test YouTube Videos
-// TODO: Make sure the lists are in alphabetical order.
-
 import Foundation
 
 /**
@@ -65,6 +60,8 @@ let bachBrandenburg2 = Composition(id: 0, composer: "Johann Sebastian Bach", com
     ["Münchener Bach-Orchester", "IETYYTMtL6U"],
     ["The English Baroque Soloists", "RNiKx8yHp1w"],
     ["The English Concert (With Score)", "haRanlw9eSg"],
+    // Masterclasses
+    ["Philip Smith", "bEurgaV3Q9A"]
 ])
 
 let bachCantata = Composition(id: 1, composer: "Johann Sebastian Bach", composerLast: "Bach", name: "Cantata BWV 51", date: "1730", era: "Baroque", genre: "Cantata", excerpts: [
@@ -87,6 +84,9 @@ let bachChristmasOratorio = Composition(id: 2, composer: "Johann Sebastian Bach"
     ["Nikolaus Harnoncourt, Soloists of the Tolzer Knabenchor", "LJts7bpW2VE"],
     ["René Jacobs, Akademie für Alte Musik Berlin", "vXNX6Ulzvn0"],
     ["Thomaskantor Kurt Thomas, Gewandhaus Orchester", "M0LNSAj3Xhc"],
+    // Masterclasses
+    ["Anthony Prisk", "qEipimgVISg"],
+    ["Michael Attaway", "F4NpABUw8wc"],
 ])
 
 let bachMagnificant = Composition(id: 3, composer: "Johann Sebastian Bach", composerLast: "Bach", name: "Magnificat in D major", date: "1735", era: "Baroque", genre: "Magnificant", excerpts: [
@@ -99,6 +99,9 @@ let bachMagnificant = Composition(id: 3, composer: "Johann Sebastian Bach", comp
     ["Matthias Beckert, Monteverdi Ensemble", "QQAWqqaUTHE"],
     ["Michel Corboz (With Score)", "q8Oeq12zjZk"],
     ["Nikolaus Harnoncourt, Concentus Musicus Vienna", "41blIyHQ0hs"],
+    // Masterclass
+    ["Anthony Prisk", "SHyp2CWDzP0"],
+    ["Philip Smith", "eZnnz9-3KuE"],
 ])
 
 let bachMassB = Composition(id: 4, composer: "Johann Sebastian Bach", composerLast: "Bach", name: "Mass in B minor", date: "1749", era: "Baroque", genre: "Mass", excerpts: [
@@ -126,6 +129,8 @@ let beethovenLeonore2 = Composition(id: 5, composer: "Ludwig Van Beethoven", com
     ["Herbert Blomstedt, Orchestre de Paris", "TwwiBZh5Wys"],
     ["Herbert von Karajan, Berliner Philharmoniker", "g1o95TFXMDA"],
     ["Roy Goodman, The Hanover Band", "gGhv2RQ8P_I"],
+    // Masterclasses
+    ["Philip Smith", "NmMCBiu1sno"],
 ])
 
 
@@ -140,6 +145,9 @@ let beethovenLeonore3 = Composition(id: 6, composer: "Ludwig Van Beethoven", com
     ["Nicolás Pasquet, Orchestra of the University of Music FRANZ LISZT Weimar", "OOIlQkANUxQ"],
     ["Herbert von Karajan, Berliner Philharmoniker", "5OibQYjPUqc"],
     ["Sir Georg Solti, Chicago Symphony Orchestra", "yZzwA_dntCM"],
+    // Masterclasses
+    ["Peter Schuh", "qKtpgkkWHk8"],
+    ["Philip Smith", "NmMCBiu1sno"],
 ])
 
 let beethoven5 = Composition(id: 7, composer: "Ludwig Van Beethoven", composerLast: "Beethoven", name: "Symphony No. 5", date: "1808", era: "Early Romantic", genre: "Symphony", excerpts: [
@@ -221,6 +229,8 @@ let bizetCarmen = Composition(id: 12, composer: "Georges Bizet", composerLast: "
     ["Lukasz Sidoruk, Symphony Orchestra of The Karol Szymanowski Music School", "opMCCil4Pjk"],
     ["Leonard Slatkin, Saint Louis Symphony Orchestra", "Zoqpn_7I7Dw"],
     ["Tan Wee Hsin, Singapore National Youth Orchestra", "hh7dxdlTPU8"],
+    // Masterclasses
+    ["Philip Smith", "w5yHjjepMV4"]
 ])
 
 let brahmsAcademic = Composition(id: 13, composer: "Johannes Brahms", composerLast: "Brahms", name: "Academic Festival Overture", date: "1880", era: "Romantic", genre: "Overture", excerpts: [
@@ -283,7 +293,7 @@ let bruckner7 = Composition(id: 17, composer: "Anton Bruckner", composerLast: "B
     Excerpt(id: 36, description: "Excerpt 7", measures: "Mov. IV, [P] - [S] ", pictures: [["F Trumpet 1", "1073"], ["F Trumpet 2", "1074"], ["F Trumpet 3", "1075"]])
 ], mutes: "No", videos: [
     ["Andris Nelsons, Gewandhausorchester Leipzig", "_6sX6aIlgJk"],
-    ["Bernard Haitink, Wiener Philharmoniker", "_6sX6aIlgJk"],
+    ["Bernard Haitink, Wiener Philharmoniker", "WiJH18Dmbu4"],
     ["Christoph Eschenbach, Frankfurt Radio Symphony", "uaV3eEJB55c"],
     ["Christian Thielemann, Wiener Philharmoniker", "cuXPkoOM2j8"],
     ["Herbert von Karajan, Wiener Philharmoniker", "3pioV8yB3iA"],
@@ -314,6 +324,8 @@ let debussyNocturnes = Composition(id: 19, composer: "Claude Debussy", composerL
     ["Pierre Boulez, Vienna Philharmonic", "1s4LZbr_h50"],
     ["Sergiu Celibidache, Radio-Sinfonieorchester Stuttgart", "uhUM6zSav08"],
     ["Vladimir Ashkenazy, Cleveland Orchestra", "obv33I2Kf10"],
+    // Masterclasses
+    ["Philip Smith", "qwBbTvAeOss"]
 ])
 
 let debussyLaMer = Composition(id: 20, composer: "Claude Debussy", composerLast: "Debussy", name: "La Mer", date: "1905", era: "Romantic", genre: "Orchestral Piece", excerpts: [
@@ -330,6 +342,8 @@ let debussyLaMer = Composition(id: 20, composer: "Claude Debussy", composerLast:
     ["Valery Gergiev, London Symphony Orchestra", "hlR9rDJMEiQ"],
     ["Vladimir Ashkenazy, Cleveland Orchestra", "FOCucJw7iT8"],
     ["Vladimir Ashkenazy, Cleveland Orchestra (With Score)", "KUFpcPEcwTo"],
+    // Masterclass
+    ["Philip Smith", "N0__fUmoMT8"]
 ])
 
 let donizettiDonPasquale = Composition(id: 21, composer: "Gaetano Donizetti", composerLast: "Donizetti", name: "Don Pasquale", date: "1843", era: "Romantic", genre: "Opera", excerpts: [
@@ -363,7 +377,6 @@ let dvorak9 = Composition(id: 23, composer: "Antonín Dvořák", composerLast: "
     ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "jOofzffyDSA"],
     ["Ferenc Fricsay, Berliner Philharmoniker (With Score)", "oLWpgWuUaU4"],
     ["George Szell, The Cleveland Orchestra", "jxoygdpGET0"],
-    ["Lorin Maazel, New York Philharmonic", "nSd1ye8l4RE"],
     ["Mariss Jansons, Symphonieorchester des Bayerischen Rundfunks", "9_BlhOJp8RY"],
     ["Sergiu Celibidache, Münchner Philharmoniker", "_9RT2nHD6CQ"],
     ["Wolfgang Sawallisch, Philadelphia Orchestra", "_JsTuICpqI8"]
@@ -446,6 +459,8 @@ let mahler3 = Composition(id: 29, composer: "Gustav Mahler", composerLast: "Mahl
     ["Jukka-Pekka Saraste, WDR Sinfonieorchester Köln", "Cjp-n6xS1CE"],
     ["Leonard Bernstein, Vienna Philharmonic Orchestra", "1AwFutIcnrU"],
     ["Semyon Bychkov, WDR Sinfonieorchester Köln (With Score)", "pRhQhUtOpPI"],
+    // Masterclasses
+    ["Philip Smith", "wQql7iJ_zAE"],
 ])
 
 let mahler4 = Composition(id: 30, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 4", date: "1901", era: "Romantic", genre: "Symphony", excerpts: [
@@ -474,7 +489,13 @@ let mahler5 = Composition(id: 31, composer: "Gustav Mahler", composerLast: "Mahl
     ["Gustavo Dudamel, Simón Bolívar Symphony Orchestra", "1F5G9JngqZY"],
     ["Leonard Bernstein, Wiener Philharmoniker", "6EJn43FEmjo"],
     ["Leonard Bernstein, Wiener Philharmoniker (With Score)", "nO0nytFsumo"],
-    ["Valery Gergiev, World Orchestra for Peace", "UjmthMDpyco"]
+    ["Valery Gergiev, World Orchestra for Peace", "UjmthMDpyco"],
+    // Masterclasses
+    ["Benjamin Zander", "gPzDh2ypK1U"],
+    ["Daniel Baldo (With Score)", "Yyht3qvyEak"],
+    ["Francisco Javier Hernández Sarabia", "BS5MPs2O_74"],
+    ["Philip Smith", "GJZBXSFD8Gk"],
+    ["Philip Smith (With Music)", "f8Bg-4opNSs"]
 ])
 
 let mahler6 = Composition(id: 32, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 6", date: "1904", era: "Romantic", genre: "Symphony", excerpts: [
@@ -490,6 +511,9 @@ let mahler6 = Composition(id: 32, composer: "Gustav Mahler", composerLast: "Mahl
     ["Klaus Tennstedt, London Philharmonic Orchestra", "DrhsSYhuoUQ"],
     ["Leonard Bernstein cond/ Vienna Philharmonic Orchestra (With Score)", "oep5Rude4mQ"],
     ["Leonard Bernstein, Wiener Philharmoniker", "rypHeVr_X7c"],
+    // Masterclasses
+    // TODO: Find the Excerpt that corresponds with this video.
+    ["Rubén Marqués", "anhyya7Bj28"]
 ])
 
 let mahler7 = Composition(id: 33, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 7", date: "1906", era: "Romantic", genre: "Symphony", excerpts: [
@@ -505,6 +529,9 @@ let mahler7 = Composition(id: 33, composer: "Gustav Mahler", composerLast: "Mahl
     ["Riccardo Chailly, Leipzig Gewandhaus Orchestra", "bXjaGRJNsqs"],
     ["Simon Rattle, Wiener Philharmoniker", "3FxBFaxBikU"],
     ["Sir Simon Rattle, Berlin Philharmonic", "C2LGbzI6diI"],
+    // Masterclasses
+    ["John Wagner", "g33Iu6V1ZGw"],
+    ["Mario Mojica", "fr4dz6oS0Rk"],
 ])
 
 let mahler9 = Composition(id: 34, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 9", date: "1910", era: "Romantic", genre: "Symphony", excerpts: [
@@ -537,8 +564,9 @@ let rimskykorsakovCappricio = Composition(id: 36, composer: "Nikolay Rimsky-Kors
     ["Leonard Bernstein, New York Philharmonic Orchestra", "3rqwvMMxeA8"],
     ["Mariss Jansons, Bavarian Radio Symphony Orchestra", "vh8X9sYXvmI"],
     ["Pablo Heras-Casado, Frankfurt Radio Symphony", "X_HSpn3tE_A"],
-    ["Valery Gergiev, Mariinsky Orchestra", "I_nyInowbuU"],
-    ["Zubin Mehta, Berliner Philharmoniker", "Lh6mDL-VwYw"]
+    ["Zubin Mehta, Berliner Philharmoniker", "Lh6mDL-VwYw"],
+    // Masterclasses
+    ["Philip Smith", "WV8z28gLUEU"]
 ])
 
 let rimskyKorsakovScheherazade = Composition(id: 37, composer: "Nikolay Rimsky-Korsakov", composerLast: "Rimsky-Korsakov", name: "Scheherazade", date: "1888", era: "Romantic", genre: "Suite", excerpts: [
@@ -555,6 +583,8 @@ let rimskyKorsakovScheherazade = Composition(id: 37, composer: "Nikolay Rimsky-K
     ["Valery Gergiev, Vienna Philharmonic", "SQNymNaTr-Y"],
     ["Yevgeny Svetlanov, USSR State Symphony Orchestra", "jR_Q7NbLzyU"],
     ["Yuri Temirkanov, Saint-Petersburg Philharmonic Orchestra", "vdnUBQT5Bqw"],
+    // Masterclasses
+    ["Philip Smith", "-PwphIoHZnQ"]
 ])
 
 let schumann2 = Composition(id: 38, composer: "Robert Schumann", composerLast: "Schumann", name: "Symphony No. 2", date: "1846", era: "Romantic", genre: "Symphony", excerpts: [
@@ -568,6 +598,8 @@ let schumann2 = Composition(id: 38, composer: "Robert Schumann", composerLast: "
     ["Philippe Herreweghe, SWR Symphonieorchester", "zpJaeSpDDus"],
     ["Sergiu Celibidache, Munich Philharmonic Orchestra", "uhvbX1F9jHI"],
     ["Vladimir Ashkenazy, Chamber Orchestra of Europe", "DjXKJndgu_s"],
+    // Masterclasses
+    ["Philip Smith", "jd7Z_wH_cag"]
 ])
 
 let scriabin4 = Composition(id: 39, composer: "Aleksandr Scriabin", composerLast: "Scriabin", name: "Symphony No. 4", date: "1908", era: "Romantic", genre: "Symphony", excerpts: [
@@ -637,7 +669,9 @@ let straussDonJuan = Composition(id: 43, composer: "Richard Strauss", composerLa
     ["Georg Solti, Chicago Symphony Orchestra", "_um5yLJx-RM"],
     ["Herbert von Karajan, Osaka Philharmonic Orchestra", "F_V5KhUxWG8"],
     ["Thomas Schippers, Cincinnati Symphony Orchestra (With Score)", "8woshq-F21s"],
-    ["Wolfgang Sawallisch, Philadelphia Orchestra", "KP89c9KfetA"]
+    ["Wolfgang Sawallisch, Philadelphia Orchestra", "KP89c9KfetA"],
+    // Masterclasses
+    ["Philip Smith", "_YiZaERf5Is"]
 ])
 
 let straussDonQuixote = Composition(id: 44, composer: "Richard Strauss", composerLast: "Strauss", name: "Don Quixote", date: "1897", era: "Late Romantic", genre: "Tone Poem", excerpts: [
@@ -668,6 +702,9 @@ let straussHeldenleben = Composition(id: 45, composer: "Richard Strauss", compos
     ["Manfred Honeck, Pittsburgh Symphony Orchestra", "NGlzlNlnw_w"],
     ["Mariss Jansons, Symphonie-Orchestrer des Bayerischen Rundfunks", "_2-dLoWorUs"],
     ["Valery Gergiev, Munich Philharmonic Orchestra", "m-aaCruKsLI"],
+    // Masterclasses
+    ["John Wagner", "6QInSDAkWUk"],
+    ["Philip Smith", "IdyKj5wYh6E"],
 ])
 
 let straussAlpineSymphony = Composition(id: 46, composer: "Richard Strauss", composerLast: "Strauss", name: "Eine Alpensinfonie", date: "1915", era: "Late Romantic", genre: "Tone Poem", excerpts: [
@@ -682,7 +719,9 @@ let straussAlpineSymphony = Composition(id: 46, composer: "Richard Strauss", com
     ["Herbert von Karajan, Berliner Philharmoniker", "Tzr2Fw_0nY8"],
     ["Prof. Nicolás Pasquet, Orchestra of the University of Music FRANZ LISZT Weimar", "JmeOz7ujjeY"],
     ["Sir Antonio Pappano, The National Youth Orchestra of the United States of America", "tAvgr92cGLI"],
-    ["Zdeněk Košler, Czech Philharmonic Orchestra (With Score)", "iIpOzPaQoSg"]
+    ["Zdeněk Košler, Czech Philharmonic Orchestra (With Score)", "iIpOzPaQoSg"],
+    // Masterclasses
+    ["Jonathan Clarke", "zyT8fK-LyuY"]
 ])
 
 let straussBourgeois = Composition(id: 47, composer: "Richard Strauss", composerLast: "Strauss", name: "Le bourgeois gentilhomme", date: "1912", era: "Late Romantic", genre: "Incidental Music", excerpts: [
@@ -766,6 +805,9 @@ let stravinskyPetrushka = Composition(id: 52, composer: "Igor Stravinsky", compo
     ["Pierre Boulez, Cleveland Orchestra (With Score)", "jeSC0vtdn3g"],
     ["Riccardo Muti, Philadelphia Orchestra", "8OW4jaI9o6Q"],
     ["Valery Gergiev, London Symphony Orchestra", "hX7aSsic7eM"],
+    // Masterclasses
+    ["Gábor Tarkövi", "6usP-XNYTDo"],
+    ["Philip Smith", "34q6mmxcGu0"],
 ])
 
 let stravinskyRite = Composition(id: 53, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "The Rite of Spring", date: "1913", era: "Modern", genre: "Ballet", excerpts: [
@@ -779,7 +821,6 @@ let stravinskyRite = Composition(id: 53, composer: "Igor Stravinsky", composerLa
     ["Lorin Maazel, The Cleveland Orchestra (With Score)", "0XyTWt82XQM"],
     ["Pierre Boulez, BBC Symphony Orchestra", "yGZh4vww97w"],
     ["Sir Simon Rattle, London Symphony Orchestra", "EkwqPJZe8ms"],
-    ["Valery Gergiev, Mariinsky Theatre Orchestra", "YOZmlYgYzG4"],
     ["Zubin Mehta, Berliner Philharmoniker", "BhsRshwB5q4"],
 ])
 
@@ -827,7 +868,6 @@ let tchaikovsky4 = Composition(id: 57, composer: "Pyotr Ilyich Tchaikovsky", com
 ], mutes: "No", videos: [
     ["Carlos Miguel Prieto, Frankfurt Radio Symphony", "Y7G5ithbFys"],
     ["Christian Lindberg, The Arctic Philharmonic Orchestra", "ieYFdj1wI_M"],
-    ["Claudio Abbado, Chicago Symphony Orchestra", "XxvTGgoStcY"],
     ["Gennady Rozhdestvensky, USSR State TV and Radio Symphony Orchestra (With Score)", "_Xldfaf4NGw"],
     ["Herbert Von Karajan, Vienna Philharmonic Orchestra", "cnXd4ZqN_c8"],
     ["Leonard Bernstein, New York Philharmonic", "4d1Me2gRZIQ"],
@@ -866,7 +906,6 @@ let wagnerGotterdamerung = Composition(id: 60, composer: "Richard Wagner", compo
     ["Joseph Keilberth, Bayreuth Festival Orchestra", "KtQ40fqs6Kc"],
     ["Karl Böhm, Bayreuth Festival Orchestra", "9_TKIStwoQI"],
     ["Marek Janowski, Bayreuth Festival Orchestra", "ZKv8J_4jdSI"],
-    ["Pierre Boulez, Bayreuth Festival Orchestra", "_ww4JHkloa8"],
     ["Zubin Mehta, Valencian Community Orchestra", "ebhrZZJ-mLg"]
 ])
 
@@ -876,7 +915,6 @@ let wagnerMeistersinger = Composition(id: 61, composer: "Richard Wagner", compos
 ], mutes: "Straight (Tpt 1 only)", videos: [
     ["Christian Thielemann, Philadelphia Orchestra", "uz-9IkVKEU4"],
     ["Christian Thielemann, Münchner Philharmoniker", "ZVO5s9zAqAQ"],
-    ["Christian Thielemann, Vienna Philharmonic Orchestra", "uyypHlrZsgg"],
     ["Christian Thielemann, Vienna Philharmonic Orchestra (With Score)", "jPI420hngqw"],
     ["Johannes Wildner, Polish National Radio Symphony Orchestra", "2_kOgXSTmDA"],
     ["Klaus Tennstedt, London Philharmonic", "5JUqTtzovbw"],
@@ -895,6 +933,8 @@ let wagnerParsifal = Composition(id: 62, composer: "Richard Wagner", composerLas
     ["James Levine, The Metropolitan Opera", "HhCMzZEHlEc"],
     ["Philippe Jordan, Bayreuth Festival Orchestra", "bTaQu7ivsRM"],
     ["Sir Georg Solti, Wiener Philharmoniker", "UeD7paD3K3o"],
+    // Masterclasses
+    ["Philip Smith", "4CxSCVNzaFE"]
 ])
 
 let wagnerRienzi = Composition(id: 63, composer: "Richard Wagner", composerLast: "Wagner", name: "Rienzi", date: "1840", era: "Romantic", genre: "Opera", excerpts: [
@@ -913,8 +953,6 @@ let wagnerRienzi = Composition(id: 63, composer: "Richard Wagner", composerLast:
 let wagnerTannhauser = Composition(id: 64, composer: "Richard Wagner", composerLast: "Wagner", name: "Tannhäuser", date: "1845", era: "Romantic", genre: "Opera", excerpts: [
     Excerpt(id: 133, description: "Excerpt 1", measures: "Overture, 1 mm. before [M] - End", pictures: [["A Trumpet 1", "1280"], ["A Trumpet 2", "1281"], ["A Trumpet 3", "1282"]])
 ], mutes: "No (Overture)", videos: [
-    ["Christian Thielemann, Münchner Philharmoniker", "KTM7E4-DN0o"],
-    ["Daniel Barenboim", "Ozp8CbktEwQ"],
     ["Klaus Tennstedt, Berliner Philharmoniker", "AWIjohOIYNc"],
     ["Wolfgang Sawallisch, Bayreuth Festival Orchestra & Choir (With Score)", "LyZlLsBWwbo"],
     ["Zubin Mehta, New York Philharmonic Orchestra (With Score)", "3_Eq9H4bSdQ"],
@@ -1018,7 +1056,7 @@ class TrumpetContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        bachBrandenburg2, bachCantata, bachChristmasOratorio, bachMagnificant, bachMassB, beethovenLeonore2, beethovenLeonore3, beethoven5, beethoven9, beethovenViolin, berliozRomanCarnival, berliozSymphonie, bizetCarmen, brahmsAcademic, brahms1, brahms2, bruckner4, bruckner7, bruckner8, debussyLaMer, debussyNocturnes, donizettiDonPasquale, dvorak8, dvorak9, handelMessiah, haydn100, mahlerDasLied, mahler1, mahler2, mahler3, mahler4, mahler5, mahler6, mahler7, mahler9, mozartSerenade9, rimskykorsakovCappricio, rimskyKorsakovScheherazade, schumann2, scriabin4, sibelius2, straussAlsoSprach, straussDonJuan, straussDonQuixote, straussHeldenleben, straussAlpineSymphony, straussBourgeois, straussSymphoniaDomestica, straussEulenspiegel, straussDeathAndTransfiguration, stravinskySoldier, stravinskyFireworks, stravinskyPetrushka, stravinskyRite, stravinskyNightengale, tchaikovskyCapriccio, tchaikovskySwanLake, tchaikovsky4, tchaikovsky5, tchaikovskyNutcracker, wagnerMeistersinger, wagnerGotterdamerung, wagnerParsifal, wagnerTannhauser
+        bachBrandenburg2, bachCantata, bachMagnificant, bachMassB, bachChristmasOratorio, beethovenLeonore2, beethovenLeonore3, beethoven5, beethoven9, beethovenViolin, berliozRomanCarnival, berliozSymphonie, bizetCarmen, brahmsAcademic, brahms1, brahms2, bruckner4, bruckner7, bruckner8, debussyLaMer, debussyNocturnes, donizettiDonPasquale, dvorak8, dvorak9, handelMessiah, haydn100, mahlerDasLied, mahler1, mahler2, mahler3, mahler4, mahler5, mahler6, mahler7, mahler9, mozartSerenade9, rimskykorsakovCappricio, rimskyKorsakovScheherazade, schumann2, scriabin4, sibelius2, straussAlsoSprach, straussDonJuan, straussDonQuixote, straussHeldenleben, straussAlpineSymphony, straussBourgeois, straussSymphoniaDomestica, straussEulenspiegel, straussDeathAndTransfiguration, stravinskyFireworks, stravinskySoldier, stravinskyNightengale, stravinskyPetrushka, stravinskyRite, tchaikovskyCapriccio, tchaikovskySwanLake, tchaikovsky4, tchaikovsky5, tchaikovskyNutcracker, wagnerMeistersinger, wagnerGotterdamerung, wagnerParsifal, wagnerTannhauser
     ]
     
     /**

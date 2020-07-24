@@ -86,7 +86,6 @@ struct SettingsView: View {
                 
                 Section(header: Text("About")) {
                     Text("© 2020 Alexander Burdiss")
-                    Text("Special Thanks to Qian Yu")
                     Button(action: {
                     let url = URL(string: "mailto:aburdiss@gmail.com")!
                         UIApplication.shared.open(url)
