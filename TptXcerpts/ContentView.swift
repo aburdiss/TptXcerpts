@@ -8,7 +8,13 @@
 
 import SwiftUI
 
+/**
+ The root tab view for the app. Environment variables are attached to this view, and passed to all of its children through @EnvironmentVariable
+ */
 struct ContentView: View {
+    /**
+     The user interface
+     */
     var body: some View {
         TabView {
             CompositionListView()
@@ -21,13 +27,13 @@ struct ContentView: View {
                     Image(systemName: "person.3")
                     Text("Composers")
             }
-            SettingsView()
+            MoreView()
                 .tabItem {
                     Image(systemName: "gear")
                     Text("More")
             }
         }
-        .environmentObject(settingsModel())
+        .environmentObject(Settings())
         .environmentObject(Favorites())
         .accentColor(Color.green)
     }

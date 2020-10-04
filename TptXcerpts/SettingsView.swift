@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct SettingsView: View {
+struct MoreView: View {
     @EnvironmentObject var settings: settingsModel
     
     var body: some View {
@@ -21,6 +21,21 @@ struct SettingsView: View {
                             }
                         }
                     .pickerStyle(SegmentedPickerStyle())
+                }
+                Section(header: Text("Favorites Settings")) {
+                    Button(action: {
+                        self.resettingFavoritesAlert = true
+                    }) {
+                        HStack {
+                            Text("Reset Favorites")
+                            Image(systemName: "heart.slash")
+                        }
+                    }
+                    .alert(isPresented: $resettingFavoritesAlert) {
+                        Alert(title: Text("All favorites will be removed"), message: Text("This cannot be undone!"), primaryButton: .destructive(Text("Reset")) {
+                            self.resetFavorites()
+                        }, secondaryButton: .cancel())
+                    }
                 }
                 Section(header: Text("Resources")) {
                     Button(action: {
@@ -107,6 +122,6 @@ struct SettingsView: View {
 
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
-        SettingsView().environmentObject(settingsModel())
+        MoreView().environmentObject(settingsModel())
     }
 }

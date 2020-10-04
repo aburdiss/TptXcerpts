@@ -6,6 +6,11 @@
 //  Copyright © 2020 Alex Burdiss. All rights reserved.
 //
 
+// MARK: Last Composer: 21
+// MARK: Last Composition: 64
+// MARK: Last Excerpt Number: 134
+// MARK: Last Image Number: 1286
+
 import Foundation
 
 /**
@@ -499,8 +504,9 @@ let mahler5 = Composition(id: 31, composer: "Gustav Mahler", composerLast: "Mahl
 ])
 
 let mahler6 = Composition(id: 32, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 6", date: "1904", era: "Romantic", genre: "Symphony", excerpts: [
-    Excerpt(id: 65, description: "Excerpt 1", measures: "Movement I: 6 measures after [2] to 2 measures before [3]", pictures: [["B♭ Trumpet 1", "1139"]]),
-    Excerpt(id: 66, description: "Excerpt 2", measures: "Mov. IV, 6 mm. after [105] - [106]", pictures: [["F Trumpet 1", "1140"], ["F Trumpet 2", "1141"], ["B♭ Trumpet 3", "1142"], ["B♭ Trumpet 4", "1143"]])
+    Excerpt(id: 65, description: "Excerpt 1", measures: "Mov. I, 6 mm. after [2] - 2 mm. before [3]", pictures: [["B♭ Trumpet 1", "1139"]]),
+    Excerpt(id: 134, description: "Excerpt 2", measures: "Mov.I, [16] - [17]", pictures: [["F Trumpet 1", "1283"], ["F Trumpet 2", "1284"], ["B♭ Trumpet 3", "1285"], ["B♭ Trumpet 4", "1286"]]),
+    Excerpt(id: 66, description: "Excerpt 3", measures: "Mov. IV, 6 mm. after [105] - [106]", pictures: [["F Trumpet 1", "1140"], ["F Trumpet 2", "1141"], ["B♭ Trumpet 3", "1142"], ["B♭ Trumpet 4", "1143"]])
 ], mutes: "Straight", videos: [
     ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "25tSq_dYL3c"],
     ["Bernard Haitink, Chicago Symphony Orchestra", "YUj_GAKWziE"],
@@ -1124,7 +1130,7 @@ class Favorites: ObservableObject {
 /**
  A model for saving user settings. Data is readable and writeable directly to memory from accessing and setting published variables.
  */
-class settingsModel: ObservableObject {
+class Settings: ObservableObject {
     /**
      A static list to display names of random options in the Picker.
      */
